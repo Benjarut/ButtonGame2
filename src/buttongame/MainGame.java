@@ -1,5 +1,6 @@
 package buttongame;
 
+import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
@@ -33,6 +34,7 @@ public class MainGame extends BasicGameState {
 
 	@Override
 	public void render(GameContainer container, StateBasedGame game, Graphics g) throws SlickException {
+		g.setColor(Color.magenta);
 		g.drawString("SCORE : "+score, 600, 10);
 		g.drawString("TIME : "+time, 300, 10);
 		background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
@@ -52,6 +54,7 @@ public class MainGame extends BasicGameState {
 				time=0;
 			}
 		}
+		buttonPress.update();
 	}
 
 	@Override
@@ -62,7 +65,7 @@ public class MainGame extends BasicGameState {
 	public void mousePressed(int button,int x,int y){
 		if(Checkhit()){
 			score+=1;
-			buttonPress.randomPosition();
+			buttonPress.resetOval();
 		}
 	}
 	public boolean Checkhit(){

@@ -13,11 +13,11 @@ public class buttonPress {
 	static public final int HEIGHT=66;
 	
 	private int defsize=30;
-	private double ovalWidth=getWidth()+defsize;
+	private double ovalWidth=WIDTH+defsize;
 	private double ovalHeight=HEIGHT+defsize;
 	private int x;
 	private int y;
-	private double time=0.05;
+	private double time=0.09;
 	private double changeSize=0;
 	
 	
@@ -38,7 +38,7 @@ public class buttonPress {
 		this.y = y;
 	}
 	
-	public void update(GameContainer container, int delta) throws SlickException{
+	public void update() throws SlickException{
 		updateOval();
 //		if(time > 0){
 //			time-=1.00/1000;
@@ -62,23 +62,29 @@ public class buttonPress {
 	public double getOvalHeight(){
 		return ovalHeight;
 	}
+	public double setOvalHeight(){
+		return ovalHeight=HEIGHT+defsize;
+	}
+	public double setOvalWidth(){
+		return ovalWidth=WIDTH+defsize; 
+	}
 	public void CheckOval(){
 		if(ovalHeight<=HEIGHT && ovalWidth <= getWidth()){
-			randomPosition();
-			ovalHeight=HEIGHT+defsize;
-			ovalWidth=getWidth()+defsize;
-			changeSize=0;
+			resetOval();
 		}
+	}
+	public void resetOval() {
+		randomPosition();
+		setOvalHeight();
+		setOvalWidth();
+		changeSize=0;
 	}
 	public void draw(GameContainer container,Graphics g){
 		image.draw(x,y);
 		g.setColor(Color.black);
-	
-		//if(time>0){
-			g.drawOval(x-defsize/2+(int)changeSize/2, y-defsize/2+(int)changeSize/2
+		g.drawOval(x-defsize/2+(int)changeSize/2, y-defsize/2+(int)changeSize/2
 					, (int)getOvalWidth(), (int)getOvalHeight());
 	
-		//}
 	}
 	public int getX(){
 		return this.x;
@@ -90,6 +96,8 @@ public class buttonPress {
 	public static int getWidth() {
 		return WIDTH;
 	}
-
+	public static int getHeight(){
+		return HEIGHT;
+	}
 
 }
