@@ -20,7 +20,7 @@ public class Button extends StateBasedGame{
 		super(name);
 		
 		this.addState(new StartMenu(menu));
-//		this.addState(new MainGame(mainGame));
+		this.addState(new MainGame(mainGame));
 //		this.addState(new Credits(credits));
 //		this.addState(new Endgame(endgame));
 	
@@ -30,7 +30,7 @@ public class Button extends StateBasedGame{
 	public void initStatesList(GameContainer container) throws SlickException {
 		// TODO Auto-generated method stub
 		this.getState(menu).init(container, this);
-//		this.getState(mainGame).init(container, this);
+		this.getState(mainGame).init(container, this);
 //		this.getState(credits).init(container, this);
 //		this.getState(endgame).init(container, this);
 		this.enterState(menu);

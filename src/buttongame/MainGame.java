@@ -35,6 +35,7 @@ public class MainGame extends BasicGameState {
 	public void render(GameContainer container, StateBasedGame game, Graphics g) throws SlickException {
 		g.drawString("SCORE : "+score, 600, 10);
 		g.drawString("TIME : "+time, 300, 10);
+		background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
 		buttonPress.draw(container, g);
 	}
 

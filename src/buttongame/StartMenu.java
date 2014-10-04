@@ -19,8 +19,10 @@ public class StartMenu extends BasicGameState{
 	private String bg="res/colorful-triangles-background.jpg";
 	int xpos,ypos;
 	
+	
 //	private double time=60;
 //	private int score=0;
+	private boolean mousePress=false;
 	private buttonPress buttonPress;
 	private boolean isMouseClick=false;
 	//private String position="";
@@ -38,7 +40,7 @@ public class StartMenu extends BasicGameState{
 		}else{
 //			g.drawString("SCORE : "+score, 600, 10);
 //			g.drawString("TIME : "+time, 300, 10);
-			buttonPress.draw(container,g);
+//			buttonPress.draw(container,g);
 		}
 		
 	}
@@ -57,6 +59,9 @@ public class StartMenu extends BasicGameState{
 		xpos=container.getInput().getMouseX();
 		ypos=container.getInput().getMouseY();
 		
+		if(mousePress){
+			enterGameState(game);
+		}
 //		if(isMouseClick==true){
 //			if(time > 0){
 //				time-=1.00/1000;
@@ -75,29 +80,21 @@ public class StartMenu extends BasicGameState{
 	public void mousePressed(int button,int x,int y){
 		//if(input.isMousePressed(Input.MOUSE_LEFT_BUTTON)){
 		if(xpos>=GAME_WIDTH/2-76 && xpos<=GAME_WIDTH/2+76 &&ypos>=600 && ypos<=647){
-			bg="res/background2.jpg";
-			try {
-				background=new Image(bg);
-				background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
-				isMouseClick=true;
-				
-			} catch (SlickException e) {
-				e.printStackTrace();
-			}
-			
+//			bg="res/background2.jpg";
+//			try {
+//				background=new Image(bg);
+//				background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
+//				isMouseClick=true;
+//				
+//			} catch (SlickException e) {
+//				e.printStackTrace();
+//			}
+			mousePress=true;
 		}
 	}
-//	public static void main(String[] args){
-//		try {
-//		      ButtonGame game = new ButtonGame("Button Game");
-//		      AppGameContainer container = new AppGameContainer((Game) game);
-//		      container.setDisplayMode(GAME_WIDTH, GAME_HEIGHT, false);
-//		      //container.setMinimumLogicUpdateInterval(1000/60);
-//		      container.start();
-//		 } catch (SlickException e) {
-//		      e.printStackTrace();
-//		 }
-//	}
+	private void enterGameState(StateBasedGame game) {
+		game.enterState(1);
+	}
 
 	@Override
 	public int getID() {
