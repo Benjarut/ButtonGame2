@@ -79,7 +79,7 @@ public class buttonPress {
 		setOvalWidth();
 		changeSize=0;
 	}
-	public void draw(GameContainer container,Graphics g){
+	public void draw(Graphics g){
 		image.draw(x,y);
 		g.setColor(Color.black);
 		g.drawOval(x-defsize/2+(int)changeSize/2, y-defsize/2+(int)changeSize/2

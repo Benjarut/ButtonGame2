@@ -6,8 +6,12 @@ import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
 import org.newdawn.slick.Input;
 import org.newdawn.slick.SlickException;
+import org.newdawn.slick.TrueTypeFont;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
+
+import org.newdawn.slick.TrueTypeFont;
+import java.awt.Font;
 
 public class MainGame extends BasicGameState {
 	public static final int GAME_WIDTH=1000;
@@ -23,6 +27,8 @@ public class MainGame extends BasicGameState {
 	private int score=0;
 	private boolean isMouseClick=false;
 	
+	Font font;
+	TrueTypeFont ttf;
 	public MainGame(int state){
 		
 	}
@@ -30,15 +36,20 @@ public class MainGame extends BasicGameState {
 	public void init(GameContainer container, StateBasedGame game) throws SlickException {
 		background=new Image(bg);
 		buttonPress=new buttonPress();
+		setFontText();
 	}
 
+	private void setFontText() {
+		font =new Font("Verdana",Font.BOLD,14);
+		ttf=new TrueTypeFont(font, true);
+	}
 	@Override
 	public void render(GameContainer container, StateBasedGame game, Graphics g) throws SlickException {
 		g.setColor(Color.magenta);
-		g.drawString("SCORE : "+score, 600, 10);
-		g.drawString("TIME : "+time, 300, 10);
 		background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
-		buttonPress.draw(container, g);
+		ttf.drawString(600, 10, "SCORE : "+score);
+		ttf.drawString(300, 10, "TIME : "+time);
+		buttonPress.draw(g);
 	}
 
 	@Override
@@ -55,6 +66,7 @@ public class MainGame extends BasicGameState {
 			}
 		}
 		buttonPress.update();
+		
 	}
 
 	@Override

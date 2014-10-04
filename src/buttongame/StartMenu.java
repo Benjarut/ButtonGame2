@@ -23,8 +23,8 @@ public class StartMenu extends BasicGameState{
 //	private double time=60;
 //	private int score=0;
 	private boolean mousePress=false;
-	private buttonPress buttonPress;
-	private boolean isMouseClick=false;
+//	private buttonPress buttonPress;
+//	private boolean isMouseClick=false;
 	//private String position="";
 	
 	public StartMenu(int state){
@@ -34,14 +34,14 @@ public class StartMenu extends BasicGameState{
 	@Override
 	public void render(GameContainer container,StateBasedGame game, Graphics g) throws SlickException {
 		background.draw(0,0, GAME_WIDTH,GAME_HEIGHT);
-		if(!isMouseClick){
+//		if(!isMouseClick){
 			startButton.draw(GAME_WIDTH/2-76,600);
 			logo.draw(275,200,500,150);
-		}else{
+//		}else{
 //			g.drawString("SCORE : "+score, 600, 10);
 //			g.drawString("TIME : "+time, 300, 10);
-//			buttonPress.draw(container,g);
-		}
+//			buttonPress.draw(g);
+//		}
 		
 	}
 	
@@ -50,7 +50,7 @@ public class StartMenu extends BasicGameState{
 		background=new Image(bg);
 		startButton=new Image("res/startButton.png");
 		logo =new Image("res/logo.png");
-		buttonPress=new buttonPress();
+//		buttonPress=new buttonPress();
 		
 	}
 	
@@ -98,7 +98,6 @@ public class StartMenu extends BasicGameState{
 
 	@Override
 	public int getID() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 	
