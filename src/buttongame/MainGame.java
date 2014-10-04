@@ -9,8 +9,6 @@ import org.newdawn.slick.SlickException;
 import org.newdawn.slick.TrueTypeFont;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
-
-import org.newdawn.slick.TrueTypeFont;
 import java.awt.Font;
 
 public class MainGame extends BasicGameState {
@@ -25,8 +23,6 @@ public class MainGame extends BasicGameState {
 	
 	private double time=60;
 	private int score=0;
-	private boolean isMouseClick=false;
-	
 	Font font;
 	TrueTypeFont ttf;
 	public MainGame(int state){
@@ -56,17 +52,15 @@ public class MainGame extends BasicGameState {
 	public void update(GameContainer container, StateBasedGame game, int delta) throws SlickException {
 		xpos=container.getInput().getMouseX();
 		ypos=container.getInput().getMouseY();
-		
-		if(isMouseClick==true){
-			if(time > 0){
-				time-=1.00/1000;
-			}
-			else{
-				time=0;
-			}
+	
+		if(time > 0){
+			time-=1.00/1000;
 		}
-		buttonPress.update();
+		else{
+			time=0;
+		}
 		
+		buttonPress.update();
 	}
 
 	@Override
@@ -77,6 +71,9 @@ public class MainGame extends BasicGameState {
 	public void mousePressed(int button,int x,int y){
 		if(Checkhit()){
 			score+=1;
+			if(buttonPress.getOvalHeight()>=buttongame.buttonPress.getHeight() && buttonPress.getOvalHeight()<=buttongame.buttonPress.getHeight()+5){
+				score+=2;
+			}
 			buttonPress.resetOval();
 		}
 	}
