@@ -67,7 +67,7 @@ public class EndGame extends BasicGameState{
 
 	public void mousePressed(int button,int x,int y){
 		
-		if(xpos>=GAME_WIDTH/2-104 && xpos<=GAME_WIDTH/2+104 &&ypos>=Button.GAME_HEIGHT/2+100 && ypos<=Button.GAME_HEIGHT/2+133){
+		if(xpos>=GAME_WIDTH/2-replayWidth/2 && xpos<=GAME_WIDTH/2+replayWidth/2 &&ypos>=Button.GAME_HEIGHT/2+100 && ypos<=Button.GAME_HEIGHT/2+100+replayHeight){
 			mousePress=true;
 		}
 	}
