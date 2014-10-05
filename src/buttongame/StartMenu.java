@@ -18,14 +18,7 @@ public class StartMenu extends BasicGameState{
 	public Input input;
 	private String bg="res/colorful-triangles-background.jpg";
 	int xpos,ypos;
-	
-	
-//	private double time=60;
-//	private int score=0;
 	private boolean mousePress=false;
-//	private buttonPress buttonPress;
-//	private boolean isMouseClick=false;
-	//private String position="";
 	
 	public StartMenu(int state){
 		
@@ -44,7 +37,6 @@ public class StartMenu extends BasicGameState{
 		background=new Image(bg);
 		startButton=new Image("res/startButton.png");
 		logo =new Image("res/logo.png");
-//		buttonPress=new buttonPress();
 		
 	}
 	
@@ -55,34 +47,11 @@ public class StartMenu extends BasicGameState{
 		
 		if(mousePress){
 			enterGameState(sbg);
-		}
-//		if(isMouseClick==true){
-//			if(time > 0){
-//				time-=1.00/1000;
-//			}
-//			else{
-//				time=0;
-//			}
-//		}
-//		
-//		if(input.isMousePressed(Input.MOUSE_LEFT_BUTTON)){
-//			isMouseClick=true;
-//		}
-		
+		}	
 	}
 	
 	public void mousePressed(int button,int x,int y){
-		//if(input.isMousePressed(Input.MOUSE_LEFT_BUTTON)){
 		if(xpos>=GAME_WIDTH/2-76 && xpos<=GAME_WIDTH/2+76 &&ypos>=600 && ypos<=647){
-//			bg="res/background2.jpg";
-//			try {
-//				background=new Image(bg);
-//				background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
-//				isMouseClick=true;
-//				
-//			} catch (SlickException e) {
-//				e.printStackTrace();
-//			}
 			mousePress=true;
 		}
 	}

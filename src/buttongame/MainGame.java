@@ -49,8 +49,7 @@ public class MainGame extends BasicGameState {
 		music=new Music("res/DesiJourney.wav");
 		music.play();
 		music.loop();
-//		buttonPress=new buttonPress();
-//		movebuttonPress=new MovebuttonPress();
+
 		initButtons();
 		setFontText();
 		
@@ -85,10 +84,6 @@ public class MainGame extends BasicGameState {
 		if(count>0 && time%10>=7){
 			bonusButton.draw(g);
 		}
-		//		buttonPress.draw(g);
-//		if(time<=59.5){
-//			movebuttonPress.draw(g);
-//		}
 		for(Entity entity : entities){	
 			entity.draw(g);
 		}
@@ -101,7 +96,6 @@ public class MainGame extends BasicGameState {
 		updateEntities(delta);
 		
 		if(time > 0){
-		//	time-=1.00/100;
 			time-=delta*1/1000f;
 			if(time%10==0){
 				count-=1;
@@ -112,16 +106,7 @@ public class MainGame extends BasicGameState {
 		}
 		if(time==0){
 			enterEndState(sbg);
-		}
-//		deltaTime=delta;
-//		buttonPress.update();
-//		if(time<=59.5){
-//			movebuttonPress.update();
-//		}
-//		for(buttonPress buttonPress:buttons){
-//			buttonPress.update();
-//		}
-		
+		}	
 	}
 	private void enterEndState(StateBasedGame sbg) {
 		sbg.enterState(2);

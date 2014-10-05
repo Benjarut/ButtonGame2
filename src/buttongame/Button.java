@@ -14,25 +14,20 @@ public class Button extends StateBasedGame{
 	public static int menu=0;
 	public static int mainGame=1;
 	public static int endGame=2;
-	public static int credits=3;
-	
 
 	public Button(String name) throws SlickException {
 		super(name);
 		
 		this.addState(new StartMenu(menu));
 		this.addState(new MainGame(mainGame));
-//		this.addState(new Credits(credits));
 		this.addState(new EndGame(endGame));
 	
 	}
 
 	@Override
 	public void initStatesList(GameContainer container) throws SlickException {
-		// TODO Auto-generated method stub
 		this.getState(menu).init(container, this);
 		this.getState(mainGame).init(container, this);
-//		this.getState(credits).init(container, this);
 		this.getState(endGame).init(container, this);
 		this.enterState(menu);
 	}
