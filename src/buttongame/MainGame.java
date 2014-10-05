@@ -68,7 +68,7 @@ public class MainGame extends BasicGameState {
 		g.setColor(Color.magenta);
 		background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
 		ttf.drawString(600, 10, "SCORE : "+score);
-		ttf.drawString(300, 10, "TIME : "+time);
+		ttf.drawString(300, 10, "TIME : "+(int) time);
 //		buttonPress.draw(g);
 //		if(time<=59.5){
 //			movebuttonPress.draw(g);
@@ -83,9 +83,10 @@ public class MainGame extends BasicGameState {
 		xpos=container.getInput().getMouseX();
 		ypos=container.getInput().getMouseY();
 	
-		updateEntities();
+		updateEntities(delta);
 		if(time > 0){
-			time-=1.00/100;
+		//	time-=1.00/100;
+			time-=delta*1/1000f;
 		}
 		else{
 			time=0;
@@ -97,17 +98,11 @@ public class MainGame extends BasicGameState {
 //		for(buttonPress buttonPress:buttons){
 //			buttonPress.update();
 //		}
-//		if(i<button_count){
-//			i++;
-//		}
-//		else{
-//			i=0;
-//		}
-		//when add button with array it collide check update render init checkhit mousepress
+		
 	}
-	private void updateEntities(){
+	private void updateEntities(int delta){
 		for(Entity entity:entities){
-			entity.update();
+			entity.update(delta);
 		}
 	}
 
@@ -122,7 +117,7 @@ public class MainGame extends BasicGameState {
 		if(i<3){
 			score+=1;
 			if(buttons[i].getOvalHeight()>=buttongame.buttonPress.getHeight() && buttons[i].getOvalHeight()<=buttongame.buttonPress.getHeight()+5){
-				score+=2;
+				score+=4;
 			}
 			buttons[i].resetOval();
 		}

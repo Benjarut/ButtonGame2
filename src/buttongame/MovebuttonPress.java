@@ -15,10 +15,10 @@ public class MovebuttonPress extends buttonPress{
 	} 
 	@Override
 	public void updateMovement(){	
-		x+=random.nextInt(3);
-		y+=random.nextInt(4);
-		if(x>MainGame.GAME_WIDTH-buttonPress.getWidth() || y>MainGame.GAME_HEIGHT-buttonPress.getHeight()){
+		if(seenButtonTime<defsize/2){
+//		if(x>MainGame.GAME_WIDTH-buttonPress.getWidth() || y>MainGame.GAME_HEIGHT-buttonPress.getHeight()){
 			randomPosition();
+			seenButtonTime=30;
 		}
 	}
 }

@@ -5,7 +5,7 @@ import org.newdawn.slick.SlickException;
 
 public interface Entity {
 	void draw(Graphics g);
-	void update();
+	void update(int delta);
 	void addImage() throws SlickException;
 	
 }
