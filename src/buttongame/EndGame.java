@@ -24,7 +24,6 @@ public class EndGame extends BasicGameState{
 	private int replayWidth=207;
 	private int replayHeight=33;
 	private int timeupWidth=374;
-	private int timeupHeight=72;
 	private String bg="res/Endbackground.jpg";
 	private int xpos,ypos;
 	public EndGame(int endgame) {
@@ -60,7 +59,7 @@ public class EndGame extends BasicGameState{
 	}
 	private void enterGameState(StateBasedGame sbg) {
 		MainGame.score=0;
-		MainGame.time=10;
+		MainGame.time=60;
 		sbg.enterState(1);
 		
 	}

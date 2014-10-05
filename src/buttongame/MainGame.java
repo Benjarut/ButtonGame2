@@ -1,6 +1,5 @@
 package buttongame;
 
-import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
@@ -23,11 +22,11 @@ public class MainGame extends BasicGameState {
 	
 	private buttonPress[] buttons;
 	private ArrayList<Entity> entities;
-	private int button_count=3;
+	private int button_count=4;
 	
 	private String bg="res/background2.jpg";
 	private int xpos,ypos;
-	public static double time=10;
+	public static double time=60;
 	public static int score=0;
 	Font font;
 	TrueTypeFont ttf;
@@ -50,6 +49,9 @@ public class MainGame extends BasicGameState {
 			buttonPress button;
 			if(i==0){
 				button =new MovebuttonPress();
+			}
+			else if(i==1){
+				button=new UnseenbuttonPress();
 			}
 			else
 				button=new buttonPress();

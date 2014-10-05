@@ -16,9 +16,14 @@ public class MovebuttonPress extends buttonPress{
 	@Override
 	public void updateMovement(){	
 		if(seenButtonTime<defsize/2){
-//		if(x>MainGame.GAME_WIDTH-buttonPress.getWidth() || y>MainGame.GAME_HEIGHT-buttonPress.getHeight()){
 			randomPosition();
 			seenButtonTime=30;
 		}
+	}
+	@Override
+	protected void changeOval(int delta){
+		ovalHeight-=delta*0.02f;
+		ovalWidth-=delta*0.02f;
+		changeSize+=delta*0.02f;
 	}
 }

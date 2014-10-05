@@ -12,14 +12,12 @@ public class buttonPress implements Entity{
 	private static final int HEIGHT=66;
 	
 	protected int defsize=30;
-	private double ovalWidth=WIDTH+defsize;
-	private double ovalHeight=HEIGHT+defsize;
+	protected double ovalWidth=WIDTH+defsize;
+	protected double ovalHeight=HEIGHT+defsize;
 	protected int x;
 	protected int y;
 	protected double seenButtonTime=30;
-
-	private double time=0.09;
-	private double changeSize=0;
+	protected double changeSize=0;
 		
 	protected Image image;
 	Random ramdom=new Random();
@@ -42,18 +40,23 @@ public class buttonPress implements Entity{
 	public void update(int delta){
 		updateOval(delta);
 		updateMovement();
-		if(seenButtonTime>defsize*3/4){
+		if(seenButtonTime>0){
 			seenButtonTime-=delta*0.01f;
+		}else{
+			seenButtonTime=30;
 		}
 	}
 	protected void updateMovement(){
 		
 	}
 	public void updateOval(int delta){
+		changeOval(delta);
+		checkOval();
+	}
+	protected void changeOval(int delta) {
 		ovalHeight-=delta*0.01f;
 		ovalWidth-=delta*0.01f;
 		changeSize+=delta*0.01f;
-		CheckOval();
 	}
 	public double getOvalWidth(){
 		return ovalWidth;  
@@ -67,7 +70,7 @@ public class buttonPress implements Entity{
 	public double setOvalWidth(){
 		return ovalWidth=WIDTH+defsize; 
 	}
-	public void CheckOval(){
+	public void checkOval(){
 		if(ovalHeight<=HEIGHT && ovalWidth <= getWidth()){
 			resetOval();
 		}
