@@ -13,7 +13,7 @@ public class UnseenbuttonPress extends buttonPress
 		image=new Image("res/button3.png");
 	} 
 	@Override
-	protected void drawImage(){
+	public void drawImage(){
 		if(seenButtonTime>20){
 			image.draw(x,y);
 		}

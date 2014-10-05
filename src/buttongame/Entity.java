@@ -7,5 +7,6 @@ public interface Entity {
 	void draw(Graphics g);
 	void update(int delta);
 	void addImage() throws SlickException;
+	void drawImage();
 	
 }

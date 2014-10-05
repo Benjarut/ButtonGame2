@@ -83,12 +83,15 @@ public class buttonPress implements Entity{
 	}
 	public void draw(Graphics g){
 		drawImage();
+		drawOutline(g);
+
+	}
+	protected void drawOutline(Graphics g) {
 		g.setColor(Color.black);
 		g.drawOval(x-defsize/2+(int)changeSize/2, y-defsize/2+(int)changeSize/2
 					, (int)getOvalWidth(), (int)getOvalHeight());
-	
 	}
-	protected void drawImage() {
+	public void drawImage() {
 		image.draw(x,y);
 	}
 	public int getX(){

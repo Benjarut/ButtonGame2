@@ -21,11 +21,13 @@ public class MainGame extends BasicGameState {
 //	private MovebuttonPress movebuttonPress;
 	
 	private buttonPress[] buttons;
+	private BonusButton bonusButton;
 	private ArrayList<Entity> entities;
 	private int button_count=4;
 	
 	private String bg="res/background2.jpg";
 	private int xpos,ypos;
+	private int count=6;
 	public static double time=60;
 	public static int score=0;
 	Font font;
@@ -37,6 +39,7 @@ public class MainGame extends BasicGameState {
 	@Override
 	public void init(GameContainer container, StateBasedGame sbg) throws SlickException {
 		background=new Image(bg);
+		bonusButton=new BonusButton();
 //		buttonPress=new buttonPress();
 //		movebuttonPress=new MovebuttonPress();
 		initButtons();
@@ -69,6 +72,9 @@ public class MainGame extends BasicGameState {
 		background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
 		ttf.drawString(600, 10, "SCORE : "+score);
 		ttf.drawString(300, 10, "TIME : "+(int) time);
+		if(count>0 && time%10>=7){
+			bonusButton.draw(g);
+		}
 		//		buttonPress.draw(g);
 //		if(time<=59.5){
 //			movebuttonPress.draw(g);
@@ -77,16 +83,18 @@ public class MainGame extends BasicGameState {
 			entity.draw(g);
 		}
 	}
-
 	@Override
 	public void update(GameContainer container, StateBasedGame sbg, int delta) throws SlickException {
 		xpos=container.getInput().getMouseX();
 		ypos=container.getInput().getMouseY();
-	
+		bonusButton.update(delta);
 		updateEntities(delta);
 		if(time > 0){
 		//	time-=1.00/100;
 			time-=delta*1/1000f;
+			if(time%10==0){
+				count-=1;
+			}
 		}
 		else{
 			time=0;	
@@ -123,16 +131,26 @@ public class MainGame extends BasicGameState {
 		i=Checkhit();
 		if(i<3){
 			score+=1;
-			if(buttons[i].getOvalHeight()>=buttongame.buttonPress.getHeight() && buttons[i].getOvalHeight()<=buttongame.buttonPress.getHeight()+5){
+			if(buttons[i].getOvalHeight()>=buttonPress.getHeight() && buttons[i].getOvalHeight()<=buttonPress.getHeight()+5){
 				score+=4;
 			}
 			buttons[i].resetOval();
 		}
+		if(hitBonus()){
+			score+=20;
+			bonusButton.resetOval();
+		}
+	}
+	private boolean hitBonus() {
+		if(xpos>=bonusButton.getX() && xpos<=bonusButton.getX()+BonusButton.getWidth() && ypos >=bonusButton.getY() && ypos <= bonusButton.getY()+BonusButton.getHeight()){
+			return true;
+		}
+		return false;
 	}
 	public int Checkhit(){
 		int i;
 		for(i=0;i<button_count;i++){
-			if(xpos>=buttons[i].getX() && xpos<=buttons[i].getX()+buttongame.buttonPress.getWidth() && ypos >=buttons[i].getY() && ypos <= buttons[i].getY()+buttongame.buttonPress.getWidth()){
+			if(xpos>=buttons[i].getX() && xpos<=buttons[i].getX()+buttonPress.getWidth() && ypos >=buttons[i].getY() && ypos <= buttons[i].getY()+buttonPress.getWidth()){
 				return i;
 			}
 			
