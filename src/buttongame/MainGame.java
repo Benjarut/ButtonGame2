@@ -4,6 +4,7 @@ import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
 import org.newdawn.slick.Input;
+import org.newdawn.slick.Music;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.Sound;
 import org.newdawn.slick.TrueTypeFont;
@@ -18,6 +19,8 @@ public class MainGame extends BasicGameState {
 	public static final int GAME_HEIGHT=800;
 	public Image background;
 	public Input input;
+	
+	Music music;
 	Sound click;
 //	private buttonPress buttonPress;
 //	private MovebuttonPress movebuttonPress;
@@ -43,6 +46,8 @@ public class MainGame extends BasicGameState {
 		background=new Image(bg);
 		bonusButton=new BonusButton();
 		click=new Sound("res/click.wav");
+		music=new Music("res/DesiJourney.wav");
+		music.play();
 //		buttonPress=new buttonPress();
 //		movebuttonPress=new MovebuttonPress();
 		initButtons();
@@ -93,6 +98,7 @@ public class MainGame extends BasicGameState {
 		ypos=container.getInput().getMouseY();
 		bonusButton.update(delta);
 		updateEntities(delta);
+		
 		if(time > 0){
 		//	time-=1.00/100;
 			time-=delta*1/1000f;
