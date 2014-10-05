@@ -23,13 +23,12 @@ public class MainGame extends BasicGameState {
 	
 	private buttonPress[] buttons;
 	private ArrayList<Entity> entities;
+	private int button_count=3;
 	
 	private String bg="res/background2.jpg";
 	private int xpos,ypos;
-	private int score=0;
-	private int button_count=3;
-	private double time=60;
-	
+	public static double time=10;
+	public static int score=0;
 	Font font;
 	TrueTypeFont ttf;
 	
@@ -88,9 +87,10 @@ public class MainGame extends BasicGameState {
 			time-=delta*1/1000f;
 		}
 		else{
-			time=0;
+			time=0;	
+		}
+		if(time==0){
 			enterEndState(sbg);
-			
 		}
 //		deltaTime=delta;
 //		buttonPress.update();
@@ -136,5 +136,8 @@ public class MainGame extends BasicGameState {
 			
 		}
 		return 3;
+	}
+	public static int getScore(){
+		return score;
 	}
 }

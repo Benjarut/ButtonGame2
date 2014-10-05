@@ -34,14 +34,8 @@ public class StartMenu extends BasicGameState{
 	@Override
 	public void render(GameContainer container,StateBasedGame sbg, Graphics g) throws SlickException {
 		background.draw(0,0, GAME_WIDTH,GAME_HEIGHT);
-//		if(!isMouseClick){
-			startButton.draw(GAME_WIDTH/2-76,600);
-			logo.draw(275,200,500,150);
-//		}else{
-//			g.drawString("SCORE : "+score, 600, 10);
-//			g.drawString("TIME : "+time, 300, 10);
-//			buttonPress.draw(g);
-//		}
+		startButton.draw(GAME_WIDTH/2-76,600);
+		logo.draw(275,200,500,150);
 		
 	}
 	

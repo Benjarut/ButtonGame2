@@ -13,7 +13,7 @@ public class Button extends StateBasedGame{
 	
 	public static int menu=0;
 	public static int mainGame=1;
-	public static int endgame=2;
+	public static int endGame=2;
 	public static int credits=3;
 	
 
@@ -23,7 +23,7 @@ public class Button extends StateBasedGame{
 		this.addState(new StartMenu(menu));
 		this.addState(new MainGame(mainGame));
 //		this.addState(new Credits(credits));
-//		this.addState(new Endgame(endgame));
+		this.addState(new EndGame(endGame));
 	
 	}
 
@@ -33,7 +33,7 @@ public class Button extends StateBasedGame{
 		this.getState(menu).init(container, this);
 		this.getState(mainGame).init(container, this);
 //		this.getState(credits).init(container, this);
-//		this.getState(endgame).init(container, this);
+		this.getState(endGame).init(container, this);
 		this.enterState(menu);
 	}
 	public static void main(String[] args){
