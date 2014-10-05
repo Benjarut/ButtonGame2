@@ -13,8 +13,9 @@ public class Button extends StateBasedGame{
 	
 	public static int menu=0;
 	public static int mainGame=1;
-	public static int credits=2;
-	public static int endgame=3;
+	public static int endgame=2;
+	public static int credits=3;
+	
 
 	public Button(String name) throws SlickException {
 		super(name);

@@ -32,7 +32,7 @@ public class StartMenu extends BasicGameState{
 	}
 
 	@Override
-	public void render(GameContainer container,StateBasedGame game, Graphics g) throws SlickException {
+	public void render(GameContainer container,StateBasedGame sbg, Graphics g) throws SlickException {
 		background.draw(0,0, GAME_WIDTH,GAME_HEIGHT);
 //		if(!isMouseClick){
 			startButton.draw(GAME_WIDTH/2-76,600);
@@ -46,7 +46,7 @@ public class StartMenu extends BasicGameState{
 	}
 	
 	@Override
-	public void init(GameContainer container,StateBasedGame game) throws SlickException {
+	public void init(GameContainer container,StateBasedGame sbg) throws SlickException {
 		background=new Image(bg);
 		startButton=new Image("res/startButton.png");
 		logo =new Image("res/logo.png");
@@ -55,12 +55,12 @@ public class StartMenu extends BasicGameState{
 	}
 	
 	@Override
-	public void update(GameContainer container,StateBasedGame game,int delta) throws SlickException {
+	public void update(GameContainer container,StateBasedGame sbg,int delta) throws SlickException {
 		xpos=container.getInput().getMouseX();
 		ypos=container.getInput().getMouseY();
 		
 		if(mousePress){
-			enterGameState(game);
+			enterGameState(sbg);
 		}
 //		if(isMouseClick==true){
 //			if(time > 0){
@@ -92,8 +92,8 @@ public class StartMenu extends BasicGameState{
 			mousePress=true;
 		}
 	}
-	private void enterGameState(StateBasedGame game) {
-		game.enterState(1);
+	private void enterGameState(StateBasedGame sbg) {
+		sbg.enterState(1);
 	}
 
 	@Override

@@ -37,7 +37,7 @@ public class MainGame extends BasicGameState {
 		entities= new ArrayList<Entity>();
 	}
 	@Override
-	public void init(GameContainer container, StateBasedGame game) throws SlickException {
+	public void init(GameContainer container, StateBasedGame sbg) throws SlickException {
 		background=new Image(bg);
 //		buttonPress=new buttonPress();
 //		movebuttonPress=new MovebuttonPress();
@@ -64,22 +64,21 @@ public class MainGame extends BasicGameState {
 		ttf=new TrueTypeFont(font, true);
 	}
 	@Override
-	public void render(GameContainer container, StateBasedGame game, Graphics g) throws SlickException {
-		g.setColor(Color.magenta);
+	public void render(GameContainer container, StateBasedGame sbg, Graphics g) throws SlickException {
 		background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
 		ttf.drawString(600, 10, "SCORE : "+score);
 		ttf.drawString(300, 10, "TIME : "+(int) time);
-//		buttonPress.draw(g);
+		//		buttonPress.draw(g);
 //		if(time<=59.5){
 //			movebuttonPress.draw(g);
 //		}
-		for(Entity entity : entities){
+		for(Entity entity : entities){	
 			entity.draw(g);
 		}
 	}
 
 	@Override
-	public void update(GameContainer container, StateBasedGame game, int delta) throws SlickException {
+	public void update(GameContainer container, StateBasedGame sbg, int delta) throws SlickException {
 		xpos=container.getInput().getMouseX();
 		ypos=container.getInput().getMouseY();
 	
@@ -90,7 +89,10 @@ public class MainGame extends BasicGameState {
 		}
 		else{
 			time=0;
+			enterEndState(sbg);
+			
 		}
+//		deltaTime=delta;
 //		buttonPress.update();
 //		if(time<=59.5){
 //			movebuttonPress.update();
@@ -99,6 +101,9 @@ public class MainGame extends BasicGameState {
 //			buttonPress.update();
 //		}
 		
+	}
+	private void enterEndState(StateBasedGame sbg) {
+		sbg.enterState(2);
 	}
 	private void updateEntities(int delta){
 		for(Entity entity:entities){
