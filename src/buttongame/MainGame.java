@@ -9,30 +9,54 @@ import org.newdawn.slick.SlickException;
 import org.newdawn.slick.TrueTypeFont;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
+
 import java.awt.Font;
+import java.util.ArrayList;
 
 public class MainGame extends BasicGameState {
 	public static final int GAME_WIDTH=1000;
 	public static final int GAME_HEIGHT=800;
 	public Image background;
 	public Input input;
+//	private buttonPress buttonPress;
+//	private MovebuttonPress movebuttonPress;
 	
-	private buttonPress buttonPress;
+	private buttonPress[] buttons;
+	private ArrayList<Entity> entities;
+	
 	private String bg="res/background2.jpg";
-	int xpos,ypos;
-	
-	private double time=60;
+	private int xpos,ypos;
 	private int score=0;
+	private int button_count=3;
+	private double time=60;
+	
 	Font font;
 	TrueTypeFont ttf;
+	
 	public MainGame(int state){
-		
+		entities= new ArrayList<Entity>();
 	}
 	@Override
 	public void init(GameContainer container, StateBasedGame game) throws SlickException {
 		background=new Image(bg);
-		buttonPress=new buttonPress();
+//		buttonPress=new buttonPress();
+//		movebuttonPress=new MovebuttonPress();
+		initButtons();
 		setFontText();
+	}
+	private void initButtons() throws SlickException {
+		buttons=new buttonPress[button_count];
+		
+		for(int i=0;i<button_count;i++){
+			buttonPress button;
+			if(i==0){
+				button =new MovebuttonPress();
+			}
+			else
+				button=new buttonPress();
+			buttons[i]= button;
+			entities.add(button);
+		}
 	}
 
 	private void setFontText() {
@@ -45,7 +69,13 @@ public class MainGame extends BasicGameState {
 		background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
 		ttf.drawString(600, 10, "SCORE : "+score);
 		ttf.drawString(300, 10, "TIME : "+time);
-		buttonPress.draw(g);
+//		buttonPress.draw(g);
+//		if(time<=59.5){
+//			movebuttonPress.draw(g);
+//		}
+		for(Entity entity : entities){
+			entity.draw(g);
+		}
 	}
 
 	@Override
@@ -53,14 +83,32 @@ public class MainGame extends BasicGameState {
 		xpos=container.getInput().getMouseX();
 		ypos=container.getInput().getMouseY();
 	
+		updateEntities();
 		if(time > 0){
-			time-=1.00/1000;
+			time-=1.00/100;
 		}
 		else{
 			time=0;
 		}
-		
-		buttonPress.update();
+//		buttonPress.update();
+//		if(time<=59.5){
+//			movebuttonPress.update();
+//		}
+//		for(buttonPress buttonPress:buttons){
+//			buttonPress.update();
+//		}
+//		if(i<button_count){
+//			i++;
+//		}
+//		else{
+//			i=0;
+//		}
+		//when add button with array it collide check update render init checkhit mousepress
+	}
+	private void updateEntities(){
+		for(Entity entity:entities){
+			entity.update();
+		}
 	}
 
 	@Override
@@ -69,20 +117,24 @@ public class MainGame extends BasicGameState {
 	}
 	
 	public void mousePressed(int button,int x,int y){
-		if(Checkhit()){
+		int i;
+		i=Checkhit();
+		if(i<3){
 			score+=1;
-			if(buttonPress.getOvalHeight()>=buttongame.buttonPress.getHeight() && buttonPress.getOvalHeight()<=buttongame.buttonPress.getHeight()+5){
+			if(buttons[i].getOvalHeight()>=buttongame.buttonPress.getHeight() && buttons[i].getOvalHeight()<=buttongame.buttonPress.getHeight()+5){
 				score+=2;
 			}
-			buttonPress.resetOval();
+			buttons[i].resetOval();
 		}
 	}
-	public boolean Checkhit(){
-		if(xpos>=buttonPress.getX() && xpos<=buttonPress.getX()+buttongame.buttonPress.getWidth() && ypos >=buttonPress.getY() && ypos <= buttonPress.getY()+buttongame.buttonPress.getWidth()){
-			return true;
+	public int Checkhit(){
+		int i;
+		for(i=0;i<button_count;i++){
+			if(xpos>=buttons[i].getX() && xpos<=buttons[i].getX()+buttongame.buttonPress.getWidth() && ypos >=buttons[i].getY() && ypos <= buttons[i].getY()+buttongame.buttonPress.getWidth()){
+				return i;
+			}
+			
 		}
-		else{
-			return false;
-		}
+		return 3;
 	}
 }

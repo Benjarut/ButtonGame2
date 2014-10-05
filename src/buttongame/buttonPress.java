@@ -3,43 +3,47 @@ package buttongame;
 import java.util.Random;
 
 import org.newdawn.slick.Color;
-import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 
-public class buttonPress {
+public class buttonPress implements Entity{
 	private static final int WIDTH=65;
-	static public final int HEIGHT=66;
+	private static final int HEIGHT=66;
 	
 	private int defsize=30;
 	private double ovalWidth=WIDTH+defsize;
 	private double ovalHeight=HEIGHT+defsize;
-	private int x;
-	private int y;
+	protected int x;
+	protected int y;
 	private double time=0.09;
 	private double changeSize=0;
 	
 	
-	private Image image;
+	protected Image image;
 	Random ramdom=new Random();
 	
 	public buttonPress() throws SlickException {
-		image=new Image("res/button.png");
+		addImage();
 		randomPosition();
+	}
+
+	public void addImage() throws SlickException {
+		image=new Image("res/button.png");
 	}
 	
 	public void randomPosition(){
-		x=ramdom.nextInt(StartMenu.GAME_WIDTH-(int)ovalWidth);
-		y=ramdom.nextInt(StartMenu.GAME_HEIGHT-(int)ovalHeight);
+		x=ramdom.nextInt(MainGame.GAME_WIDTH-(int)ovalWidth);
+		y=ramdom.nextInt(MainGame.GAME_HEIGHT-(int)ovalHeight);
 	}
 	public void setPosition(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
 	
-	public void update() throws SlickException{
+	public void update(){
 		updateOval();
+		updateMovement();
 //		if(time > 0){
 //			time-=1.00/1000;
 //		}
@@ -50,6 +54,10 @@ public class buttonPress {
 //			ovalWidth=WIDTH+defsize;
 //		}
 	}
+	protected void updateMovement(){
+		
+	}
+
 	public void updateOval(){
 		ovalHeight-=time;
 		ovalWidth-=time;
