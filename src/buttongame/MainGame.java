@@ -48,6 +48,7 @@ public class MainGame extends BasicGameState {
 		click=new Sound("res/click.wav");
 		music=new Music("res/DesiJourney.wav");
 		music.play();
+		music.loop();
 //		buttonPress=new buttonPress();
 //		movebuttonPress=new MovebuttonPress();
 		initButtons();
