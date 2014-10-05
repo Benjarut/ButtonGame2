@@ -5,6 +5,7 @@ import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
 import org.newdawn.slick.Input;
 import org.newdawn.slick.SlickException;
+import org.newdawn.slick.Sound;
 import org.newdawn.slick.TrueTypeFont;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
@@ -17,6 +18,7 @@ public class MainGame extends BasicGameState {
 	public static final int GAME_HEIGHT=800;
 	public Image background;
 	public Input input;
+	Sound click;
 //	private buttonPress buttonPress;
 //	private MovebuttonPress movebuttonPress;
 	
@@ -40,10 +42,12 @@ public class MainGame extends BasicGameState {
 	public void init(GameContainer container, StateBasedGame sbg) throws SlickException {
 		background=new Image(bg);
 		bonusButton=new BonusButton();
+		click=new Sound("res/click.wav");
 //		buttonPress=new buttonPress();
 //		movebuttonPress=new MovebuttonPress();
 		initButtons();
 		setFontText();
+		
 	}
 	private void initButtons() throws SlickException {
 		buttons=new buttonPress[button_count];
@@ -127,6 +131,7 @@ public class MainGame extends BasicGameState {
 	}
 	
 	public void mousePressed(int button,int x,int y){
+		click.play();
 		int i;
 		i=Checkhit();
 		if(i<3){
