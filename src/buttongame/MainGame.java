@@ -41,6 +41,7 @@ public class MainGame extends BasicGameState {
 	public MainGame(int state){
 		entities = new ArrayList<Entity>();
 	}
+
 	@Override
 	public void init(GameContainer container, StateBasedGame sbg) throws SlickException {
 		background=new Image(bg);
@@ -54,6 +55,7 @@ public class MainGame extends BasicGameState {
 		setFontText();
 		
 	}
+	
 	private void initButtons() throws SlickException {
 		buttons=new buttonPress[button_count];
 		
@@ -76,6 +78,7 @@ public class MainGame extends BasicGameState {
 		font =new Font("Verdana",Font.BOLD,14);
 		ttf=new TrueTypeFont(font, true);
 	}
+	
 	@Override
 	public void render(GameContainer container, StateBasedGame sbg, Graphics g) throws SlickException {
 		background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
@@ -88,6 +91,7 @@ public class MainGame extends BasicGameState {
 			entity.draw(g);
 		}
 	}
+	
 	@Override
 	public void update(GameContainer container, StateBasedGame sbg, int delta) throws SlickException {
 		xpos=container.getInput().getMouseX();
@@ -108,9 +112,11 @@ public class MainGame extends BasicGameState {
 			enterEndState(sbg);
 		}	
 	}
+	
 	private void enterEndState(StateBasedGame sbg) {
 		sbg.enterState(2);
 	}
+	
 	private void updateEntities(int delta){
 		for(Entity entity:entities){
 			entity.update(delta);
@@ -138,12 +144,14 @@ public class MainGame extends BasicGameState {
 			bonusButton.resetOval();
 		}
 	}
+	
 	private boolean hitBonus() {
 		if(xpos>=bonusButton.getX() && xpos<=bonusButton.getX()+BonusButton.getWidth() && ypos >=bonusButton.getY() && ypos <= bonusButton.getY()+BonusButton.getHeight()){
 			return true;
 		}
 		return false;
 	}
+	
 	public int Checkhit(){
 		int i;
 		for(i=0;i<button_count;i++){
@@ -154,6 +162,7 @@ public class MainGame extends BasicGameState {
 		}
 		return 3;
 	}
+	
 	public static int getScore(){
 		return score;
 	}

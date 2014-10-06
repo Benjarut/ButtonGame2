@@ -26,6 +26,7 @@ public class EndGame extends BasicGameState{
 	private int timeupWidth = 374;
 	private String bg = "res/Endbackground.jpg";
 	private int xpos,ypos;
+
 	public EndGame(int endgame) {
 	}
 
@@ -41,6 +42,7 @@ public class EndGame extends BasicGameState{
 		font = new Font("Times New Roman",Font.BOLD,28);
 		ttf = new TrueTypeFont(font, true);
 	}
+	
 	@Override
 	public void render(GameContainer container, StateBasedGame sbg, Graphics g) throws SlickException {
 		background.draw(0,0,Button.GAME_WIDTH,Button.GAME_HEIGHT);
@@ -57,6 +59,7 @@ public class EndGame extends BasicGameState{
 			enterGameState(sbg);
 		}
 	}
+	
 	private void enterGameState(StateBasedGame sbg) {
 		MainGame.score = 0;
 		MainGame.time = 60;
@@ -70,6 +73,7 @@ public class EndGame extends BasicGameState{
 			mousePress = true;
 		}
 	}
+	
 	@Override
 	public int getID() {
 		return 2;

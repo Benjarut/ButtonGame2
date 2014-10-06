@@ -26,17 +26,21 @@ public class buttonPress implements Entity{
 		addImage();
 		randomPosition();
 	}
+	
 	public void addImage() throws SlickException {
 		image = new Image("res/button.png");
 	}
+	
 	public void randomPosition(){
 		x = ramdom.nextInt(MainGame.GAME_WIDTH-(int)ovalWidth);
 		y = ramdom.nextInt(MainGame.GAME_HEIGHT-(int)ovalHeight);
 	}
+	
 	public void setPosition(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
+	
 	public void update(int delta){
 		updateOval(delta);
 		updateMovement();
@@ -46,57 +50,71 @@ public class buttonPress implements Entity{
 			seenButtonTime = 30;
 		}
 	}
+	
 	protected void updateMovement(){
 		
 	}
+	
 	public void updateOval(int delta){
 		changeOval(delta);
 		checkOval();
 	}
+	
 	protected void changeOval(int delta) {
 		ovalHeight -= delta*0.01f;
 		ovalWidth -= delta*0.01f;
 		changeSize += delta*0.01f;
 	}
+	
 	public double getOvalWidth(){
 		return ovalWidth;  
 	}
+	
 	public double getOvalHeight(){
 		return ovalHeight;
 	}
+	
 	public double setOvalHeight(){
 		return ovalHeight = HEIGHT+defsize;
 	}
+	
 	public double setOvalWidth(){
 		return ovalWidth=WIDTH+defsize; 
 	}
+	
 	public void checkOval(){
 		if (ovalHeight <= HEIGHT && ovalWidth <= getWidth()){
 			resetOval();
 		}
 	}
+	
 	public void resetOval() {
 		randomPosition();
 		setOvalHeight();
 		setOvalWidth();
 		changeSize = 0;
 	}
+	
 	public void draw(Graphics g){
 		drawImage();
 		drawOutline(g);
 
 	}
+	
 	protected void drawOutline(Graphics g) {
 		g.setColor(Color.black);
 		g.drawOval(x-defsize/2+(int)changeSize/2, y-defsize/2+(int)changeSize/2
 					, (int)getOvalWidth(), (int)getOvalHeight());
 	}
+	
 	public void drawImage() {
 		image.draw(x,y);
 	}
+	
 	public int getX(){
 		return this.x;
 	}
+	
 	public int getY(){
 		return this.y;
 	}
@@ -104,6 +122,7 @@ public class buttonPress implements Entity{
 	public static int getWidth() {
 		return WIDTH;
 	}
+	
 	public static int getHeight(){
 		return HEIGHT;
 	}

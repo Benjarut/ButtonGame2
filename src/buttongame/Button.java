@@ -31,6 +31,7 @@ public class Button extends StateBasedGame{
 		this.getState(endGame).init(container, this);
 		this.enterState(menu);
 	}
+
 	public static void main(String[] args){
 		try {
 		      AppGameContainer container = new AppGameContainer(new Button(name));

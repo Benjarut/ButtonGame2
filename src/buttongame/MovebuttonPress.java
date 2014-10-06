@@ -7,12 +7,15 @@ import org.newdawn.slick.SlickException;
 
 public class MovebuttonPress extends buttonPress{
 	Random random = new Random();
+	
 	public MovebuttonPress() throws SlickException {
 		super();
 	}
+	
 	public void addImage() throws SlickException {
 		image = new Image("res/button2.png");
 	} 
+	
 	@Override
 	public void updateMovement(){	
 		if (seenButtonTime<defsize/2){
@@ -20,6 +23,7 @@ public class MovebuttonPress extends buttonPress{
 			seenButtonTime=30;
 		}
 	}
+	
 	@Override
 	protected void changeOval(int delta){
 		ovalHeight -= delta*0.02f;
