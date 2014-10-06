@@ -10,11 +10,11 @@ public class UnseenbuttonPress extends buttonPress
 	}
 	@Override
 	public void addImage() throws SlickException {
-		image=new Image("res/button3.png");
+		image = new Image("res/button3.png");
 	} 
 	@Override
 	public void drawImage(){
-		if(seenButtonTime>20){
+		if (seenButtonTime > 20){
 			image.draw(x,y);
 		}
 	}

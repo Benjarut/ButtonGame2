@@ -12,34 +12,34 @@ import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 
 public class EndGame extends BasicGameState{
-	public static final int GAME_WIDTH=1000;
-	public static final int GAME_HEIGHT=800;
+	public static final int GAME_WIDTH = 1000;
+	public static final int GAME_HEIGHT = 800;
 	public Image background;
 	public Image replay;
 	public Image timeup;
 	public Input input;
-	private boolean mousePress=false;
+	private boolean mousePress = false;
 	Font font;
 	TrueTypeFont ttf;
-	private int replayWidth=207;
-	private int replayHeight=33;
-	private int timeupWidth=374;
-	private String bg="res/Endbackground.jpg";
+	private int replayWidth = 207;
+	private int replayHeight = 33;
+	private int timeupWidth = 374;
+	private String bg = "res/Endbackground.jpg";
 	private int xpos,ypos;
 	public EndGame(int endgame) {
 	}
 
 	@Override
 	public void init(GameContainer container, StateBasedGame sbg) throws SlickException {
-		background=new Image(bg);
-		replay=new Image("res/replay.png");
-		timeup=new Image("res/Time-up.png");
+		background = new Image(bg);
+		replay = new Image("res/replay.png");
+		timeup = new Image("res/Time-up.png");
 		setFontText();
 	}
 
 	private void setFontText() {
-		font =new Font("Times New Roman",Font.BOLD,28);
-		ttf=new TrueTypeFont(font, true);
+		font = new Font("Times New Roman",Font.BOLD,28);
+		ttf = new TrueTypeFont(font, true);
 	}
 	@Override
 	public void render(GameContainer container, StateBasedGame sbg, Graphics g) throws SlickException {
@@ -51,23 +51,23 @@ public class EndGame extends BasicGameState{
 
 	@Override
 	public void update(GameContainer container, StateBasedGame sbg, int delta) throws SlickException {
-		xpos=container.getInput().getMouseX();
-		ypos=container.getInput().getMouseY();
+		xpos = container.getInput().getMouseX();
+		ypos = container.getInput().getMouseY();
 		if(mousePress){
 			enterGameState(sbg);
 		}
 	}
 	private void enterGameState(StateBasedGame sbg) {
-		MainGame.score=0;
-		MainGame.time=60;
+		MainGame.score = 0;
+		MainGame.time = 60;
 		sbg.enterState(1);
 		
 	}
 
 	public void mousePressed(int button,int x,int y){
 		
-		if(xpos>=GAME_WIDTH/2-replayWidth/2 && xpos<=GAME_WIDTH/2+replayWidth/2 &&ypos>=Button.GAME_HEIGHT/2+100 && ypos<=Button.GAME_HEIGHT/2+100+replayHeight){
-			mousePress=true;
+		if(xpos >= GAME_WIDTH/2-replayWidth/2 && xpos <= GAME_WIDTH/2+replayWidth/2 &&ypos >= Button.GAME_HEIGHT/2+100 && ypos <= Button.GAME_HEIGHT/2+100+replayHeight){
+			mousePress = true;
 		}
 	}
 	@Override

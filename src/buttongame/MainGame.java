@@ -15,8 +15,8 @@ import java.awt.Font;
 import java.util.ArrayList;
 
 public class MainGame extends BasicGameState {
-	public static final int GAME_WIDTH=1000;
-	public static final int GAME_HEIGHT=800;
+	public static final int GAME_WIDTH = 1000;
+	public static final int GAME_HEIGHT = 800;
 	public Image background;
 	public Input input;
 	
@@ -28,18 +28,18 @@ public class MainGame extends BasicGameState {
 	private buttonPress[] buttons;
 	private BonusButton bonusButton;
 	private ArrayList<Entity> entities;
-	private int button_count=4;
+	private int button_count = 4;
 	
-	private String bg="res/background2.jpg";
+	private String bg = "res/background2.jpg";
 	private int xpos,ypos;
-	private int count=6;
-	public static double time=60;
-	public static int score=0;
+	private int count = 6;
+	public static double time = 60;
+	public static int score = 0;
 	Font font;
 	TrueTypeFont ttf;
 	
 	public MainGame(int state){
-		entities= new ArrayList<Entity>();
+		entities = new ArrayList<Entity>();
 	}
 	@Override
 	public void init(GameContainer container, StateBasedGame sbg) throws SlickException {

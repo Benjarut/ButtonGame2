@@ -8,16 +8,16 @@ import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 
 public class buttonPress implements Entity{
-	private static final int WIDTH=65;
-	private static final int HEIGHT=66;
+	private static final int WIDTH = 65;
+	private static final int HEIGHT = 66;
 	
-	protected int defsize=30;
-	protected double ovalWidth=WIDTH+defsize;
-	protected double ovalHeight=HEIGHT+defsize;
+	protected int defsize = 30;
+	protected double ovalWidth = WIDTH+defsize;
+	protected double ovalHeight = HEIGHT+defsize;
 	protected int x;
 	protected int y;
-	protected double seenButtonTime=30;
-	protected double changeSize=0;
+	protected double seenButtonTime = 30;
+	protected double changeSize = 0;
 		
 	protected Image image;
 	Random ramdom=new Random();
@@ -27,11 +27,11 @@ public class buttonPress implements Entity{
 		randomPosition();
 	}
 	public void addImage() throws SlickException {
-		image=new Image("res/button.png");
+		image = new Image("res/button.png");
 	}
 	public void randomPosition(){
-		x=ramdom.nextInt(MainGame.GAME_WIDTH-(int)ovalWidth);
-		y=ramdom.nextInt(MainGame.GAME_HEIGHT-(int)ovalHeight);
+		x = ramdom.nextInt(MainGame.GAME_WIDTH-(int)ovalWidth);
+		y = ramdom.nextInt(MainGame.GAME_HEIGHT-(int)ovalHeight);
 	}
 	public void setPosition(int x, int y) {
 		this.x = x;
@@ -41,9 +41,9 @@ public class buttonPress implements Entity{
 		updateOval(delta);
 		updateMovement();
 		if(seenButtonTime>0){
-			seenButtonTime-=delta*0.01f;
+			seenButtonTime -= delta*0.01f;
 		}else{
-			seenButtonTime=30;
+			seenButtonTime = 30;
 		}
 	}
 	protected void updateMovement(){
@@ -54,9 +54,9 @@ public class buttonPress implements Entity{
 		checkOval();
 	}
 	protected void changeOval(int delta) {
-		ovalHeight-=delta*0.01f;
-		ovalWidth-=delta*0.01f;
-		changeSize+=delta*0.01f;
+		ovalHeight -= delta*0.01f;
+		ovalWidth -= delta*0.01f;
+		changeSize += delta*0.01f;
 	}
 	public double getOvalWidth(){
 		return ovalWidth;  
@@ -65,13 +65,13 @@ public class buttonPress implements Entity{
 		return ovalHeight;
 	}
 	public double setOvalHeight(){
-		return ovalHeight=HEIGHT+defsize;
+		return ovalHeight = HEIGHT+defsize;
 	}
 	public double setOvalWidth(){
 		return ovalWidth=WIDTH+defsize; 
 	}
 	public void checkOval(){
-		if(ovalHeight<=HEIGHT && ovalWidth <= getWidth()){
+		if (ovalHeight <= HEIGHT && ovalWidth <= getWidth()){
 			resetOval();
 		}
 	}
@@ -79,7 +79,7 @@ public class buttonPress implements Entity{
 		randomPosition();
 		setOvalHeight();
 		setOvalWidth();
-		changeSize=0;
+		changeSize = 0;
 	}
 	public void draw(Graphics g){
 		drawImage();

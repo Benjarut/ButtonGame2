@@ -10,7 +10,7 @@ public class BonusButton extends buttonPress{
 		super();
 	}
 	public void addImage() throws SlickException {
-		image=new Image("res/bonusButton.png");
+		image = new Image("res/bonusButton.png");
 	} 
 	
 	public static int getWidth(){

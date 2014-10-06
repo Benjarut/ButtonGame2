@@ -7,13 +7,13 @@ import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.StateBasedGame;
 
 public class Button extends StateBasedGame{
-	public static final int GAME_WIDTH=1000;
-	public static final int GAME_HEIGHT=800;
-	public static final String name="Button Game";
+	public static final int GAME_WIDTH = 1000;
+	public static final int GAME_HEIGHT = 800;
+	public static final String name = "Button Game";
 	
-	public static int menu=0;
-	public static int mainGame=1;
-	public static int endGame=2;
+	public static int menu = 0;
+	public static int mainGame = 1;
+	public static int endGame = 2;
 
 	public Button(String name) throws SlickException {
 		super(name);
