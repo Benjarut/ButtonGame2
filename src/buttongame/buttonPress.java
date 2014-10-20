@@ -32,8 +32,8 @@ public class buttonPress implements Entity{
 	}
 	
 	public void randomPosition(){
-		x = ramdom.nextInt(MainGame.GAME_WIDTH-(int)ovalWidth);
-		y = ramdom.nextInt(MainGame.GAME_HEIGHT-(int)ovalHeight);
+		x = ramdom.nextInt(Button.GAME_WIDTH-(int)ovalWidth);
+		y = ramdom.nextInt(Button.GAME_HEIGHT-(int)ovalHeight);
 	}
 	
 	public void setPosition(int x, int y) {

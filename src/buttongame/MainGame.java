@@ -15,8 +15,8 @@ import java.awt.Font;
 import java.util.ArrayList;
 
 public class MainGame extends BasicGameState {
-	public static final int GAME_WIDTH = 1000;
-	public static final int GAME_HEIGHT = 800;
+//	public static final int GAME_WIDTH = 1000;
+//	public static final int GAME_HEIGHT = 800;
 	public Image background;
 	public Input input;
 	
@@ -81,7 +81,7 @@ public class MainGame extends BasicGameState {
 	
 	@Override
 	public void render(GameContainer container, StateBasedGame sbg, Graphics g) throws SlickException {
-		background.draw(0,0,GAME_WIDTH,GAME_HEIGHT);
+		background.draw(0,0,Button.GAME_WIDTH,Button.GAME_HEIGHT);
 		ttf.drawString(600, 10, "SCORE : "+score);
 		ttf.drawString(300, 10, "TIME : "+(int) time);
 		if(count>0 && time%10>=7){
@@ -146,8 +146,10 @@ public class MainGame extends BasicGameState {
 	}
 	
 	private boolean hitBonus() {
-		if(xpos>=bonusButton.getX() && xpos<=bonusButton.getX()+BonusButton.getWidth() && ypos >=bonusButton.getY() && ypos <= bonusButton.getY()+BonusButton.getHeight()){
-			return true;
+		if(xpos>=bonusButton.getX() && xpos<=bonusButton.getX()+BonusButton.getWidth()){
+			if(ypos >=bonusButton.getY() && ypos <= bonusButton.getY()+BonusButton.getHeight()){
+				return true;
+			}
 		}
 		return false;
 	}
@@ -155,8 +157,10 @@ public class MainGame extends BasicGameState {
 	public int Checkhit(){
 		int i;
 		for(i=0;i<button_count;i++){
-			if(xpos>=buttons[i].getX() && xpos<=buttons[i].getX()+buttonPress.getWidth() && ypos >=buttons[i].getY() && ypos <= buttons[i].getY()+buttonPress.getWidth()){
-				return i;
+			if(xpos>=buttons[i].getX() && xpos<=buttons[i].getX()+buttonPress.getWidth()){
+				if(ypos >=buttons[i].getY() && ypos <= buttons[i].getY()+buttonPress.getWidth()){
+					return i;
+				}
 			}
 			
 		}
