@@ -12,8 +12,8 @@ import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 
 public class EndGame extends BasicGameState{
-	public static final int GAME_WIDTH = 1000;
-	public static final int GAME_HEIGHT = 800;
+//	public static final int GAME_WIDTH = 1000;
+//	public static final int GAME_HEIGHT = 800;
 	public Image background;
 	public Image replay;
 	public Image timeup;
@@ -69,8 +69,10 @@ public class EndGame extends BasicGameState{
 
 	public void mousePressed(int button,int x,int y){
 		
-		if(xpos >= GAME_WIDTH/2-replayWidth/2 && xpos <= GAME_WIDTH/2+replayWidth/2 &&ypos >= Button.GAME_HEIGHT/2+100 && ypos <= Button.GAME_HEIGHT/2+100+replayHeight){
-			mousePress = true;
+		if(xpos >= Button.GAME_WIDTH/2-replayWidth/2 && xpos <= Button.GAME_WIDTH/2+replayWidth/2 ){
+			if(ypos >= Button.GAME_HEIGHT/2+100 && ypos <= Button.GAME_HEIGHT/2+100+replayHeight){
+				mousePress = true;
+			}
 		}
 	}
 	
