@@ -1,391 +1,934 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_NkHLgFlDEeSVLKyYvLPsDA" type="PapyrusUMLClassDiagram" name="ClassDiagram" measurementUnit="Pixel">
-  <children xmi:type="notation:Shape" xmi:id="_wBBroFlDEeSVLKyYvLPsDA" type="2008">
-    <children xmi:type="notation:DecorationNode" xmi:id="_wBK1kFlDEeSVLKyYvLPsDA" type="5029"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_wBK1kVlDEeSVLKyYvLPsDA" type="7017">
-      <children xmi:type="notation:Shape" xmi:id="_3vyuIFlDEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dMlVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3vyuIVlDEeSVLKyYvLPsDA"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_NkHLgFlDEeSVLKyYvLPsDA" type="PapyrusUMLClassDiagram" name="ClassDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_yBHGsFmIEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_yBQ3sFmIEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_yBQ3sVmIEeSE0M3clutwBw" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_54PbAFmIEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvI7VmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54PbAVmIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54PbAlmIEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvI8FmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54PbA1mIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54PbBFmIEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvI81mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54PbBVmIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54PbBlmIEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvI_FmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54PbB1mIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54PbCFmIEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvJDlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54PbCVmIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54ZMAFmIEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvJEVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54ZMAVmIEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_yBQ3slmIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_yBQ3s1mIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_yBQ3tFmIEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yBQ3tVmIEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3vyuIllDEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dMmFk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3vyuI1lDEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_yBQ3tlmIEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_54ZMAlmIEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvJHlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54ZMA1mIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54ZMBFmIEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvJNlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54ZMBVmIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54ZMBlmIEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvJRlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54ZMB1mIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54ZMCFmIEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvJVlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54ZMCVmIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54ZMClmIEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvJZFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54ZMC1mIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54ZMDFmIEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvJaFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54ZMDVmIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54ZMDlmIEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvJeVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54ZMD1mIEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_54ZMEFmIEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvJfVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_54ZMEVmIEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_yBQ3t1mIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_yBQ3uFmIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_yBQ3uVmIEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yBQ3ulmIEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3vyuJFlDEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dMnlk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3vyuJVlDEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_yBQ3u1mIEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_yBQ3vFmIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_yBQ3vVmIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_yBQ3vlmIEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yBQ3v1mIEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3vyuJllDEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dMoVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3vyuJ1lDEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvI6FmIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yBHGsVmIEeSE0M3clutwBw" x="932" y="256"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-IRFwFmIEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-IRFwlmIEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IRFw1mIEeSE0M3clutwBw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IRFxFmIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IRFxVmIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IRFxlmIEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IRFx1mIEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3vyuKFlDEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dMpFk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3vyuKVlDEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IRFyFmIEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_ABGPoFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKilmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ABGPoVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ABGPolmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKjlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ABGPo1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ABGPpFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKj1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ABGPpVmJEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IRFyVmIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IRFylmIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IRFy1mIEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IRFzFmIEeSE0M3clutwBw"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_wBK1kllDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_wBK1k1lDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_wBK1lFlDEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wBK1lVlDEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_wBK1lllDEeSVLKyYvLPsDA" type="7018">
-      <children xmi:type="notation:Shape" xmi:id="_3vyuKllDEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dMrlk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3vyuK1lDEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-IRFzVmIEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-IRFzlmIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-IRFz1mIEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IRF0FmIEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IRF0VmIEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3vyuLFlDEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dMuFk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3vyuLVlDEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvKiVmIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IRFwVmIEeSE0M3clutwBw" x="785" y="726"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_BC0yYFmJEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_BC0yYlmJEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_BC0yY1mJEeSE0M3clutwBw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_BC0yZFmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_BC0yZVmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_BC0yZlmJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BC0yZ1mJEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3vyuLllDEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dPm1k2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3vyuL1lDEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_BC0yaFmJEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_C1BIwFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKkVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_C1BIwVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_C1BIwlmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKlVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_C1BIw1mJEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_BC0yaVmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_BC0yalmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_BC0ya1mJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BC0ybFmJEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3vyuMFlDEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dPp1k2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3vyuMVlDEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_BC0ybVmJEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_BC0yblmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_BC0yb1mJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_BC0ycFmJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BC0ycVmJEeSE0M3clutwBw"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_wBK1l1lDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_wBK1mFlDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_wBK1mVlDEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wBK1mllDEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvKkFmIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BC0yYVmJEeSE0M3clutwBw" x="1098" y="734"/>
     </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_wBK1m1lDEeSVLKyYvLPsDA" type="7019">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_wBK1nFlDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_wBK1nVlDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_wBK1nllDEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wBK1n1lDEeSVLKyYvLPsDA"/>
-    </children>
-    <element xmi:type="uml:Class" href="ButtonGame2.uml#_R6dMk1k2EeSVLKyYvLPsDA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wBBroVlDEeSVLKyYvLPsDA" x="25" y="92"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_6yaxoFlDEeSVLKyYvLPsDA" type="2008">
-    <children xmi:type="notation:DecorationNode" xmi:id="_6yaxollDEeSVLKyYvLPsDA" type="5029"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_6yaxo1lDEeSVLKyYvLPsDA" type="7017">
-      <children xmi:type="notation:Shape" xmi:id="_E_TcYFlEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dNxlk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_E_TcYVlEEeSVLKyYvLPsDA"/>
+    <children xmi:type="notation:Shape" xmi:id="_HgL3YFmJEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HgL3YlmJEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_HgL3Y1mJEeSE0M3clutwBw" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_T78NcFmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHllmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T78NcVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T78NclmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHmVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T78Nc1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T78NdFmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHpVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T78NdVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T78NdlmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHqFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T78Nd1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T78NeFmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHsVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T78NeVmJEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_HgL3ZFmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_HgL3ZVmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_HgL3ZlmJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgL3Z1mJEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_E_TcYllEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dNyVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_E_TcY1lEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_HgL3aFmJEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_T78NelmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHw1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T78Ne1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T8F-cFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvH0VmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T8F-cVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T8F-clmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIAlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T8F-c1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T8F-dFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvICVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T8F-dVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T8F-dlmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIEFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T8F-d1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T8F-eFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIFFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T8F-eVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T8F-elmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIGFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T8F-e1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T8F-fFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIHFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T8F-fVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_T8F-flmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIIFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_T8F-f1mJEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_HgL3aVmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_HgL3almJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_HgL3a1mJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgL3bFmJEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_E_TcZFlEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dNzFk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_E_TcZVlEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_HgL3bVmJEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_HgL3blmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_HgL3b1mJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_HgL3cFmJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgL3cVmJEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_E_TcZllEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dNz1k2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_E_TcZ1lEEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvHlVmIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgL3YVmJEeSE0M3clutwBw" x="377" y="508"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nhROQFmJEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nhROQlmJEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nhROQ1mJEeSE0M3clutwBw" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_zU83sFmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvG9VmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83sVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zU83slmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvG-FmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83s1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zU83tFmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvG_lmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83tVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zU83tlmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHAVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83t1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zU83uFmJEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHBFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83uVmJEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nhRORFmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nhRORVmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nhRORlmJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nhROR1mJEeSE0M3clutwBw"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_6yaxpFlDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_6yaxpVlDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_6yaxpllDEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yaxp1lDEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_6yaxqFlDEeSVLKyYvLPsDA" type="7018">
-      <children xmi:type="notation:Shape" xmi:id="_E_TcaFlEEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dN4lk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_E_TcaVlEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nhROSFmJEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_zU83ulmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHDlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83u1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zU83vFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHGFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83vVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zU83vlmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvJ_1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83v1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zU83wFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKA1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83wVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zU83wlmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKB1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zU83w1mJEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nhROSVmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nhROSlmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nhROS1mJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nhROTFmJEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_E_TcallEEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dOD1k2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_E_Tca1lEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nhROTVmJEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nhROTlmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nhROT1mJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nhROUFmJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nhROUVmJEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_E_mXUFlEEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dOI1k2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_E_mXUVlEEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvG81mIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nhROQVmJEeSE0M3clutwBw" x="244" y="-25"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nha_Q1mJEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nha_RVmJEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nha_RlmJEeSE0M3clutwBw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nha_R1mJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nha_SFmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nha_SVmJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nha_SlmJEeSE0M3clutwBw"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_6yaxqVlDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_6yaxqllDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_6yaxq1lDEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yaxrFlDEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_6yaxrVlDEeSVLKyYvLPsDA" type="7019">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_6yaxrllDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_6yaxr1lDEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_6yaxsFlDEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yaxsVlDEeSVLKyYvLPsDA"/>
-    </children>
-    <element xmi:type="uml:Class" href="ButtonGame2.uml#_R6dNxFk2EeSVLKyYvLPsDA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yaxoVlDEeSVLKyYvLPsDA" x="35" y="424"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_GqWo8FlEEeSVLKyYvLPsDA" type="2008">
-    <children xmi:type="notation:DecorationNode" xmi:id="_GqWo8llEEeSVLKyYvLPsDA" type="5029"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_GqWo81lEEeSVLKyYvLPsDA" type="7017">
-      <children xmi:type="notation:Shape" xmi:id="_Zk9RwFlEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dMwVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zk9RwVlEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nha_S1mJEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_rpKQsFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKGFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_rpKQsVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_rpUBsFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKHFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_rpUBsVmJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_rpUBslmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKJlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_rpUBs1mJEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_rpUBtFmJEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKKlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_rpUBtVmJEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nha_TFmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nha_TVmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nha_TlmJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nha_T1mJEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_Zk9RwllEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dMxFk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zk9Rw1lEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nha_UFmJEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nha_UVmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nha_UlmJEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nha_U1mJEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nha_VFmJEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_ZlHCwFlEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dMzVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlHCwVlEEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvKFlmIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nha_RFmJEeSE0M3clutwBw" x="872" y="14"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_V3F2EFmKEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3F2ElmKEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V3F2E1mKEeSE0M3clutwBw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_V3F2FFmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V3F2FVmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V3F2FlmKEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V3F2F1mKEeSE0M3clutwBw"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_GqWo9FlEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_GqWo9VlEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_GqWo9llEEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GqWo91lEEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_GqWo-FlEEeSVLKyYvLPsDA" type="7018">
-      <children xmi:type="notation:Shape" xmi:id="_ZlHCwllEEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dNJFk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlHCw1lEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V3F2GFmKEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_Zo5TwFmKEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKVFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Zo5TwVmKEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Zo5TwlmKEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvKWFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Zo5Tw1mKEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_V3F2GVmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V3F2GlmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V3F2G1mKEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V3F2HFmKEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_ZlHCxFlEEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dNMVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlHCxVlEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V3F2HVmKEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_V3F2HlmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V3F2H1mKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V3F2IFmKEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V3F2IVmKEeSE0M3clutwBw"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_GqWo-VlEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_GqWo-llEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_GqWo-1lEEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GqWo_FlEEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvKUlmIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V3F2EVmKEeSE0M3clutwBw" x="56" y="965"/>
     </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_GqWo_VlEEeSVLKyYvLPsDA" type="7019">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_GqWo_llEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_GqWo_1lEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_GqWpAFlEEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GqWpAVlEEeSVLKyYvLPsDA"/>
-    </children>
-    <element xmi:type="uml:Class" href="ButtonGame2.uml#_R6dMv1k2EeSVLKyYvLPsDA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GqWo8VlEEeSVLKyYvLPsDA" x="802" y="57"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_gWtSYFlEEeSVLKyYvLPsDA" type="2008">
-    <children xmi:type="notation:DecorationNode" xmi:id="_gWtSYllEEeSVLKyYvLPsDA" type="5029"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_gWtSY1lEEeSVLKyYvLPsDA" type="7017">
-      <children xmi:type="notation:Shape" xmi:id="_pne6MFlEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dOkFk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pne6MVlEEeSVLKyYvLPsDA"/>
+    <children xmi:type="notation:Shape" xmi:id="_lwhz8FmKEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwhz8lmKEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_lwhz81mKEeSE0M3clutwBw" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_vauBUFmKEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHIVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_vauBUVmKEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_vauBUlmKEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHJFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_vauBU1mKEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_vauBVFmKEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHLVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_vauBVVmKEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_lwhz9FmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_lwhz9VmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_lwhz9lmKEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lwhz91mKEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_pne6MllEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dOk1k2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pne6M1lEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_lwhz-FmKEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_vauBVlmKEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHTFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_vauBV1mKEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_vauBWFmKEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHXVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_vauBWVmKEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_vauBWlmKEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHbVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_vauBW1mKEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_vauBXFmKEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHfVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_vauBXVmKEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_va3yUFmKEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHhFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_va3yUVmKEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_va3yUlmKEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHkVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_va3yU1mKEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_lwhz-VmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_lwhz-lmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_lwhz-1mKEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lwhz_FmKEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_pne6NFlEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dOrlk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pne6NVlEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_lwhz_VmKEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_lwhz_lmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_lwhz_1mKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_lwh0AFmKEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lwh0AVmKEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_pnorMFlEEeSVLKyYvLPsDA" type="3012">
-        <element xmi:type="uml:Property" href="ButtonGame2.uml#_R6dOsVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pnorMVlEEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvHH1mIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lwhz8VmKEeSE0M3clutwBw" x="832" y="1137"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_2wi_YFmKEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2wi_YlmKEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2wi_Y1mKEeSE0M3clutwBw" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_LjY8MFmLEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHllmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LjY8MVmLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LjY8MlmLEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvHmVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LjY8M1mLEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2wi_ZFmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2wi_ZVmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2wi_ZlmKEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2wi_Z1mKEeSE0M3clutwBw"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_gWtSZFlEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_gWtSZVlEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_gWtSZllEEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gWtSZ1lEEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_gWtSaFlEEeSVLKyYvLPsDA" type="7018">
-      <children xmi:type="notation:Shape" xmi:id="_pnorMllEEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dPBFk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pnorM1lEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2wi_aFmKEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_LjY8NFmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIv1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LjY8NVmLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LjY8NlmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHuFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LjY8N1mLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LjY8OFmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvHvFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LjY8OVmLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LjY8OlmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvH0VmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LjY8O1mLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LjY8PFmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvICVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LjY8PVmLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LjY8PlmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIEFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LjY8P1mLEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2wi_aVmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2wi_almKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2wi_a1mKEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2wi_bFmKEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_pnorNFlEEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dPCFk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pnorNVlEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2wi_bVmKEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2wi_blmKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2wi_b1mKEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2wi_cFmKEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2wi_cVmKEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_pnorNllEEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dPGVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pnorN1lEEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvIs1mIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2wi_YVmKEeSE0M3clutwBw" x="1552" y="799"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_r23DkFmLEeSE0M3clutwBw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_r23DklmLEeSE0M3clutwBw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_r23Dk1mLEeSE0M3clutwBw" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_wsHiUFmLEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvIJlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiUVmLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsHiUlmLEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvIKVmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiU1mLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsHiVFmLEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvILFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiVVmLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsHiVlmLEeSE0M3clutwBw" type="3012">
+          <element xmi:type="uml:Property" href="ButtonGame2.uml#_kXvIO1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiV1mLEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_r23DlFmLEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_r23DlVmLEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_r23DllmLEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r23Dl1mLEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_pnorOFlEEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dPHVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pnorOVlEEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_r23DmFmLEeSE0M3clutwBw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_wsHiWFmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIQlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiWVmLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsHiWlmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIUlmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiW1mLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsHiXFmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIX1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiXVmLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsHiXlmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIb1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiX1mLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsHiYFmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIfFmIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiYVmLEeSE0M3clutwBw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsHiYlmLEeSE0M3clutwBw" type="3013">
+          <element xmi:type="uml:Operation" href="ButtonGame2.uml#_kXvIg1mIEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsHiY1mLEeSE0M3clutwBw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_r23DmVmLEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_r23DmlmLEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_r23Dm1mLEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r23DnFmLEeSE0M3clutwBw"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_gWtSaVlEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_gWtSallEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_gWtSa1lEEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gWtSbFlEEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_gWtSbVlEEeSVLKyYvLPsDA" type="7019">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_gWtSbllEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_gWtSb1lEEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_gWtScFlEEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gWtScVlEEeSVLKyYvLPsDA"/>
-    </children>
-    <element xmi:type="uml:Class" href="ButtonGame2.uml#_R6dOiFk2EeSVLKyYvLPsDA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gWtSYVlEEeSVLKyYvLPsDA" x="995" y="407"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_0HuJUFlFEeSVLKyYvLPsDA" type="2008">
-    <children xmi:type="notation:DecorationNode" xmi:id="_0HuJUllFEeSVLKyYvLPsDA" type="5029"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_0HuJU1lFEeSVLKyYvLPsDA" type="7017">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_0HuJVFlFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_0HuJVVlFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_0HuJVllFEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0HuJV1lFEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_0HuJWFlFEeSVLKyYvLPsDA" type="7018">
-      <children xmi:type="notation:Shape" xmi:id="_3PnHUFlFEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dQKlk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3PnHUVlFEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_r23DnVmLEeSE0M3clutwBw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_r23DnlmLEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_r23Dn1mLEeSE0M3clutwBw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_r23DoFmLEeSE0M3clutwBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r23DoVmLEeSE0M3clutwBw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3PnHUllFEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dQLlk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3PnHU1lFEeSVLKyYvLPsDA"/>
+      <element xmi:type="uml:Class" href="ButtonGame2.uml#_kXvIJFmIEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r23DkVmLEeSE0M3clutwBw" x="-110" y="1278"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_NkHLgVlDEeSVLKyYvLPsDA" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_NkHLgllDEeSVLKyYvLPsDA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_NkHLg1lDEeSVLKyYvLPsDA">
+      <owner xmi:type="uml:Model" href="ButtonGame2.uml#_R6dMkFk2EeSVLKyYvLPsDA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="ButtonGame2.uml#_R6dMkFk2EeSVLKyYvLPsDA"/>
+    <edges xmi:type="notation:Connector" xmi:id="_HgVoYFmJEeSE0M3clutwBw" type="4001" source="_HgL3YFmJEeSE0M3clutwBw" target="_yBHGsFmIEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HgVoY1mJEeSE0M3clutwBw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HgVoZFmJEeSE0M3clutwBw" y="-20"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_3PnHVFlFEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dQL1k2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_3PnHVVlFEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HgVoZVmJEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HgVoZlmJEeSE0M3clutwBw" y="20"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_0HuJWVlFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_0HuJWllFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_0HuJW1lFEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0HuJXFlFEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_0HuJXVlFEeSVLKyYvLPsDA" type="7019">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_0HuJXllFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_0HuJX1lFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_0HuJYFlFEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0HuJYVlFEeSVLKyYvLPsDA"/>
-    </children>
-    <element xmi:type="uml:Class" href="ButtonGame2.uml#_R6dQKVk2EeSVLKyYvLPsDA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0HuJUVlFEeSVLKyYvLPsDA" x="1113" y="774"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_8kao0FlFEeSVLKyYvLPsDA" type="2008">
-    <children xmi:type="notation:DecorationNode" xmi:id="_8kao0llFEeSVLKyYvLPsDA" type="5029"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_8kao01lFEeSVLKyYvLPsDA" type="7017">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_8kao1FlFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_8kao1VlFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_8kao1llFEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8kao11lFEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_8kao2FlFEeSVLKyYvLPsDA" type="7018">
-      <children xmi:type="notation:Shape" xmi:id="_-YTBQFlFEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dQMVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_-YTBQVlFEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HgVoZ1mJEeSE0M3clutwBw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HgVoaFmJEeSE0M3clutwBw" x="46" y="-32"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_-YTBQllFEeSVLKyYvLPsDA" type="3013">
-        <element xmi:type="uml:Operation" href="ButtonGame2.uml#_R6dQNVk2EeSVLKyYvLPsDA"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_-YTBQ1lFEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HgVoaVmJEeSE0M3clutwBw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HgVoalmJEeSE0M3clutwBw" y="20"/>
       </children>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_8kao2VlFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_8kao2llFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_8kao21lFEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8kao3FlFEeSVLKyYvLPsDA"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HgVoa1mJEeSE0M3clutwBw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HgVobFmJEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HgVobVmJEeSE0M3clutwBw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HgVoblmJEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_HgVoYVmJEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Association" href="ButtonGame2.uml#_kXvJ0lmIEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HgVoYlmJEeSE0M3clutwBw" points="[0, 0, -1316, -433]$[932, 307, -384, -126]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U9piEFmJEeSE0M3clutwBw" id="(1.0,0.5183098591549296)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U9piEVmJEeSE0M3clutwBw" id="(0.0,0.4169014084507042)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_nhkwQ1mJEeSE0M3clutwBw" type="4008" source="_nhROQFmJEeSE0M3clutwBw" target="_nha_Q1mJEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nhkwRlmJEeSE0M3clutwBw" type="6026">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nhkwR1mJEeSE0M3clutwBw" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_nhkwSFmJEeSE0M3clutwBw" type="6027">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nhkwSVmJEeSE0M3clutwBw" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_nhkwRFmJEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Dependency" href="ButtonGame2.uml#_kXvJglmIEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nhkwRVmJEeSE0M3clutwBw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oQGDIFmJEeSE0M3clutwBw" id="(1.0,0.536969696969697)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oQGDIVmJEeSE0M3clutwBw" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_GvZeMFmKEeSE0M3clutwBw" type="4001" source="_BC0yYFmJEeSE0M3clutwBw" target="_yBHGsFmIEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_GvZeM1mKEeSE0M3clutwBw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GvZeNFmKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_GvZeNVmKEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GvZeNlmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_GvZeN1mKEeSE0M3clutwBw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GvZeOFmKEeSE0M3clutwBw" x="25" y="-23"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_GvZeOVmKEeSE0M3clutwBw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GvZeOlmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_GvZeO1mKEeSE0M3clutwBw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GvZePFmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_GvZePVmKEeSE0M3clutwBw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GvZePlmKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_GvZeMVmKEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Association" href="ButtonGame2.uml#_kXvJ0FmIEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GvZeMlmKEeSE0M3clutwBw" points="[25, -62, -103, 254]$[56, -138, -72, 178]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IGXRIFmKEeSE0M3clutwBw" id="(0.5979899497487438,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IGXRIVmKEeSE0M3clutwBw" id="(0.4231770833333333,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_JnWiwFmKEeSE0M3clutwBw" type="4001" source="_-IRFwFmIEeSE0M3clutwBw" target="_yBHGsFmIEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JnWiw1mKEeSE0M3clutwBw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JnWixFmKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JnWixVmKEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JnWixlmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JnWix1mKEeSE0M3clutwBw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JnWiyFmKEeSE0M3clutwBw" x="19" y="-19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JnWiyVmKEeSE0M3clutwBw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JnWiylmKEeSE0M3clutwBw" x="-3" y="9"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JnWiy1mKEeSE0M3clutwBw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JnWizFmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JnWizVmKEeSE0M3clutwBw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JnWizlmKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_JnWiwVmKEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Association" href="ButtonGame2.uml#_kXvJzlmIEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JnWiwlmKEeSE0M3clutwBw" points="[98, -66, -380, 257]$[215, -145, -263, 178]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MbAWIFmKEeSE0M3clutwBw" id="(0.9384615384615385,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MbAWIVmKEeSE0M3clutwBw" id="(0.22395833333333334,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_V3PAA1mKEeSE0M3clutwBw" type="4001" source="_V3F2EFmKEeSE0M3clutwBw" target="_HgL3YFmJEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3PABlmKEeSE0M3clutwBw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3PAB1mKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3PACFmKEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3PACVmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3PAClmKEeSE0M3clutwBw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3PAC1mKEeSE0M3clutwBw" x="23" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3PADFmKEeSE0M3clutwBw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3PADVmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3PADlmKEeSE0M3clutwBw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3PAD1mKEeSE0M3clutwBw" x="-9" y="-25"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3PAEFmKEeSE0M3clutwBw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3PAEVmKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_V3PABFmKEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Association" href="ButtonGame2.uml#_kXvJvFmIEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V3PABVmKEeSE0M3clutwBw" points="[0, 0, -117, 102]$[0, -12, -117, 90]$[117, -102, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W7JUEFmKEeSE0M3clutwBw" id="(0.5845511482254697,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W7JUEVmKEeSE0M3clutwBw" id="(0.28271604938271605,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_lwrk8FmKEeSE0M3clutwBw" type="4001" source="_V3F2EFmKEeSE0M3clutwBw" target="_lwhz8FmKEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwrk81mKEeSE0M3clutwBw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwrk9FmKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwrk9VmKEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwrk9lmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwrk91mKEeSE0M3clutwBw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwrk-FmKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwrk-VmKEeSE0M3clutwBw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwrk-lmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwrk-1mKEeSE0M3clutwBw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwrk_FmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwrk_VmKEeSE0M3clutwBw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwrk_lmKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_lwrk8VmKEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Association" href="ButtonGame2.uml#_kXvJslmIEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lwrk8lmKEeSE0M3clutwBw" points="[-18, -62, 277, 929]$[-295, -991, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mrkf4FmKEeSE0M3clutwBw" id="(1.0,0.3467741935483871)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mrkf4VmKEeSE0M3clutwBw" id="(0.0,0.788235294117647)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_2wi_dVmKEeSE0M3clutwBw" type="4001" source="_2wi_YFmKEeSE0M3clutwBw" target="_yBHGsFmIEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2wi_eFmKEeSE0M3clutwBw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2wi_eVmKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2wi_elmKEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2wi_e1mKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2wi_fFmKEeSE0M3clutwBw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2wi_fVmKEeSE0M3clutwBw" x="70" y="-26"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2wi_flmKEeSE0M3clutwBw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2wi_f1mKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2wswYFmKEeSE0M3clutwBw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2wswYVmKEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2wswYlmKEeSE0M3clutwBw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2wswY1mKEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_2wi_dlmKEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Association" href="ButtonGame2.uml#_kXvJ1FmIEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2wi_d1mKEeSE0M3clutwBw" points="[0, 0, 623, 188]$[-270, -182, 353, 6]$[-278, -188, 345, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_33O6oFmKEeSE0M3clutwBw" id="(0.8365384615384616,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_33O6oVmKEeSE0M3clutwBw" id="(0.3346354166666667,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_r23DpVmLEeSE0M3clutwBw" type="4001" source="_V3F2EFmKEeSE0M3clutwBw" target="_r23DkFmLEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_r23DqFmLEeSE0M3clutwBw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r23DqVmLEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r23DqlmLEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r23Dq1mLEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r23DrFmLEeSE0M3clutwBw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r23DrVmLEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r23DrlmLEeSE0M3clutwBw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r23Dr1mLEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r23DsFmLEeSE0M3clutwBw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r23DsVmLEeSE0M3clutwBw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r23DslmLEeSE0M3clutwBw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r23Ds1mLEeSE0M3clutwBw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_r23DplmLEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Association" href="ButtonGame2.uml#_kXvJwlmIEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r23Dp1mLEeSE0M3clutwBw" points="[0, 0, -370, -217]$[54, 209, -316, -8]$[63, 217, -307, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_scQ2sFmLEeSE0M3clutwBw" id="(0.44258872651356995,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_scQ2sVmLEeSE0M3clutwBw" id="(0.4192708333333333,0.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3ngxsFmMEeSE0M3clutwBw" type="PapyrusUMLSequenceDiagram" name="SeqDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_3ngxsVmMEeSE0M3clutwBw" type="2001">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3ngxslmMEeSE0M3clutwBw" type="5001"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3ngxs1mMEeSE0M3clutwBw" type="7001">
+        <children xmi:type="notation:Shape" xmi:id="_SKzNsFmOEeSE0M3clutwBw" type="3001">
+          <children xmi:type="notation:DecorationNode" xmi:id="_SKzNslmOEeSE0M3clutwBw" type="5002"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_SKzNs1mOEeSE0M3clutwBw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_SKzNtFmOEeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SKzNtVmOEeSE0M3clutwBw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_pXkPQlmOEeSE0M3clutwBw" type="3006">
+            <element xmi:type="uml:ActionExecutionSpecification" href="ButtonGame2.uml#_pXkPQFmOEeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pXkPQ1mOEeSE0M3clutwBw" x="46" y="101" width="16" height="78"/>
+          </children>
+          <element xmi:type="uml:Lifeline" href="ButtonGame2.uml#_SKpcsFmOEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SKzNsVmOEeSE0M3clutwBw" x="21" y="9" width="108"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_UtraIlmOEeSE0M3clutwBw" type="3001">
+          <children xmi:type="notation:DecorationNode" xmi:id="_UtraJFmOEeSE0M3clutwBw" type="5002"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_Ut0kEFmOEeSE0M3clutwBw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_Ut0kEVmOEeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ut0kElmOEeSE0M3clutwBw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_l7kCc1mOEeSE0M3clutwBw" type="3006">
+            <element xmi:type="uml:ActionExecutionSpecification" href="ButtonGame2.uml#_l7kCcVmOEeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l7kCdFmOEeSE0M3clutwBw" x="29" y="98" width="16" height="275"/>
+          </children>
+          <element xmi:type="uml:Lifeline" href="ButtonGame2.uml#_UtraIFmOEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UtraI1mOEeSE0M3clutwBw" x="230" y="8" width="74"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BAqLAlmQEeSE0M3clutwBw" type="3001">
+          <children xmi:type="notation:DecorationNode" xmi:id="_BAqLBFmQEeSE0M3clutwBw" type="5002"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_BAqLBVmQEeSE0M3clutwBw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_BAqLBlmQEeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BAqLB1mQEeSE0M3clutwBw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_B2iDElmQEeSE0M3clutwBw" type="3006">
+            <element xmi:type="uml:ActionExecutionSpecification" href="ButtonGame2.uml#_B2iDEFmQEeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B2iDE1mQEeSE0M3clutwBw" x="49" y="91" width="16" height="87"/>
+          </children>
+          <element xmi:type="uml:Lifeline" href="ButtonGame2.uml#_BAqLAFmQEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BAqLA1mQEeSE0M3clutwBw" x="411" y="8" width="114"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LasrglmREeSE0M3clutwBw" type="3001">
+          <children xmi:type="notation:DecorationNode" xmi:id="_LasrhFmREeSE0M3clutwBw" type="5002"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_La2cgFmREeSE0M3clutwBw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_La2cgVmREeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_La2cglmREeSE0M3clutwBw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_M0NcI1mREeSE0M3clutwBw" type="3006">
+            <element xmi:type="uml:ActionExecutionSpecification" href="ButtonGame2.uml#_M0NcIVmREeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M0NcJFmREeSE0M3clutwBw" x="73" y="171" width="16" height="90"/>
+          </children>
+          <element xmi:type="uml:Lifeline" href="ButtonGame2.uml#_LasrgFmREeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lasrg1mREeSE0M3clutwBw" x="559" y="8" width="162"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_J9jGIFmTEeSE0M3clutwBw" type="3001">
+          <children xmi:type="notation:DecorationNode" xmi:id="_J9jGIlmTEeSE0M3clutwBw" type="5002"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_J9liYFmTEeSE0M3clutwBw" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_J9liYVmTEeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9liYlmTEeSE0M3clutwBw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_LQtXIFmTEeSE0M3clutwBw" type="3006">
+            <element xmi:type="uml:ActionExecutionSpecification" href="ButtonGame2.uml#_LQoeoVmTEeSE0M3clutwBw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LQtXIVmTEeSE0M3clutwBw" x="67" y="280" width="16" height="87"/>
+          </children>
+          <element xmi:type="uml:Lifeline" href="ButtonGame2.uml#_J9gp4FmTEeSE0M3clutwBw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9jGIVmTEeSE0M3clutwBw" x="754" y="8" width="151"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3ngxtFmMEeSE0M3clutwBw"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="ButtonGame2.uml#_3N2UgFmMEeSE0M3clutwBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3ngxtVmMEeSE0M3clutwBw" x="46" y="-15"/>
     </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_8kao3VlFEeSVLKyYvLPsDA" type="7019">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_8kao3llFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_8kao31lFEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_8kao4FlFEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8kao4VlFEeSVLKyYvLPsDA"/>
-    </children>
-    <element xmi:type="uml:Class" href="ButtonGame2.uml#_R6dQMFk2EeSVLKyYvLPsDA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8kao0VlFEeSVLKyYvLPsDA" x="878" y="806"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_BpnoEFlGEeSVLKyYvLPsDA" type="2008">
-    <children xmi:type="notation:DecorationNode" xmi:id="_BpnoEllGEeSVLKyYvLPsDA" type="5029"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_BpnoE1lGEeSVLKyYvLPsDA" type="7017">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_BpnoFFlGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_BpnoFVlGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_BpnoFllGEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpnoF1lGEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_BpnoGFlGEeSVLKyYvLPsDA" type="7018">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_BpnoGVlGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_BpnoGllGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_BpnoG1lGEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpnoHFlGEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_BpnoHVlGEeSVLKyYvLPsDA" type="7019">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_BpnoHllGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_BpnoH1lGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_BpnoIFlGEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpnoIVlGEeSVLKyYvLPsDA"/>
-    </children>
-    <element xmi:type="uml:Class" href="ButtonGame2.uml#_R6dQfVk2EeSVLKyYvLPsDA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpnoEVlGEeSVLKyYvLPsDA" x="1504" y="642"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_UOiUwFlGEeSVLKyYvLPsDA" type="2008">
-    <children xmi:type="notation:DecorationNode" xmi:id="_UOiUwllGEeSVLKyYvLPsDA" type="5029"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_UOiUw1lGEeSVLKyYvLPsDA" type="7017">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_UOiUxFlGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_UOiUxVlGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_UOiUxllGEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UOiUx1lGEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_UOiUyFlGEeSVLKyYvLPsDA" type="7018">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_UOiUyVlGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_UOiUyllGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_UOiUy1lGEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UOiUzFlGEeSVLKyYvLPsDA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_UOiUzVlGEeSVLKyYvLPsDA" type="7019">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_UOiUzllGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_UOiUz1lGEeSVLKyYvLPsDA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_UOiU0FlGEeSVLKyYvLPsDA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UOiU0VlGEeSVLKyYvLPsDA"/>
-    </children>
-    <element xmi:type="uml:Class" href="ButtonGame2.uml#_R6dNNVk2EeSVLKyYvLPsDA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UOiUwVlGEeSVLKyYvLPsDA" x="429" y="797"/>
-  </children>
-  <styles xmi:type="notation:StringValueStyle" xmi:id="_NkHLgVlDEeSVLKyYvLPsDA" name="diagram_compatibility_version" stringValue="1.0.0"/>
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_NkHLgllDEeSVLKyYvLPsDA"/>
-  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_NkHLg1lDEeSVLKyYvLPsDA">
-    <owner xmi:type="uml:Model" href="ButtonGame2.uml#_R6dMkFk2EeSVLKyYvLPsDA"/>
-  </styles>
-  <element xmi:type="uml:Model" href="ButtonGame2.uml#_R6dMkFk2EeSVLKyYvLPsDA"/>
-  <edges xmi:type="notation:Connector" xmi:id="_0IBEQFlFEeSVLKyYvLPsDA" type="4008" source="_gWtSYFlEEeSVLKyYvLPsDA" target="_0HuJUFlFEeSVLKyYvLPsDA">
-    <children xmi:type="notation:DecorationNode" xmi:id="_0IBEQ1lFEeSVLKyYvLPsDA" type="6026">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_0IBERFlFEeSVLKyYvLPsDA" y="40"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_0IBERVlFEeSVLKyYvLPsDA" type="6027">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_0IBERllFEeSVLKyYvLPsDA" y="60"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_0IBEQVlFEeSVLKyYvLPsDA"/>
-    <element xmi:type="uml:Dependency" href="ButtonGame2.uml#_R6dPSFk2EeSVLKyYvLPsDA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0IBEQllFEeSVLKyYvLPsDA" points="[-201, -88, 995, 436]$[-1196, -524, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-8tV4FlFEeSVLKyYvLPsDA" id="(0.5318444995864351,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-8tV4VlFEeSVLKyYvLPsDA" id="(0.49401709401709404,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_8kjywFlFEeSVLKyYvLPsDA" type="4008" source="_gWtSYFlEEeSVLKyYvLPsDA" target="_8kao0FlFEeSVLKyYvLPsDA">
-    <children xmi:type="notation:DecorationNode" xmi:id="_8kjyw1lFEeSVLKyYvLPsDA" type="6026">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_8kjyxFlFEeSVLKyYvLPsDA" y="40"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_8kjyxVlFEeSVLKyYvLPsDA" type="6027">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_8kjyxllFEeSVLKyYvLPsDA" y="60"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_8kjywVlFEeSVLKyYvLPsDA"/>
-    <element xmi:type="uml:Dependency" href="ButtonGame2.uml#_R6dPSlk2EeSVLKyYvLPsDA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8kjywllFEeSVLKyYvLPsDA" points="[-201, -88, 995, 436]$[-1196, -524, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cEsYsFlGEeSVLKyYvLPsDA" id="(0.31017369727047145,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cEsYsVlGEeSVLKyYvLPsDA" id="(0.6934673366834171,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_BpwyAFlGEeSVLKyYvLPsDA" type="4008" source="_gWtSYFlEEeSVLKyYvLPsDA" target="_BpnoEFlGEeSVLKyYvLPsDA">
-    <children xmi:type="notation:DecorationNode" xmi:id="_BpwyA1lGEeSVLKyYvLPsDA" type="6026">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_BpwyBFlGEeSVLKyYvLPsDA" y="40"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_BpwyBVlGEeSVLKyYvLPsDA" type="6027">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_BpwyBllGEeSVLKyYvLPsDA" y="60"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_BpwyAVlGEeSVLKyYvLPsDA"/>
-    <element xmi:type="uml:Dependency" href="ButtonGame2.uml#_R6dPT1k2EeSVLKyYvLPsDA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BpwyAllGEeSVLKyYvLPsDA" points="[-151, -66, 746, 327]$[-897, -393, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CA0AEFlGEeSVLKyYvLPsDA" id="(1.0,0.8950354609929078)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CA0AEVlGEeSVLKyYvLPsDA" id="(0.0,0.26)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_V603cFlGEeSVLKyYvLPsDA" type="4001" source="_UOiUwFlGEeSVLKyYvLPsDA" target="_gWtSYFlEEeSVLKyYvLPsDA">
-    <children xmi:type="notation:DecorationNode" xmi:id="_V603c1lGEeSVLKyYvLPsDA" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_V603dFlGEeSVLKyYvLPsDA" y="-20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_V603dVlGEeSVLKyYvLPsDA" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_V603dllGEeSVLKyYvLPsDA" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_V603d1lGEeSVLKyYvLPsDA" type="6003">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_V603eFlGEeSVLKyYvLPsDA" y="-20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_V603eVlGEeSVLKyYvLPsDA" type="6005">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_V603ellGEeSVLKyYvLPsDA" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_V603e1lGEeSVLKyYvLPsDA" type="6033">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_V603fFlGEeSVLKyYvLPsDA" y="20"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_V603fVlGEeSVLKyYvLPsDA" type="6034">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_V603fllGEeSVLKyYvLPsDA" y="-20"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_V603cVlGEeSVLKyYvLPsDA"/>
-    <element xmi:type="uml:Association" href="ButtonGame2.uml#_R6dPclk2EeSVLKyYvLPsDA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V603cllGEeSVLKyYvLPsDA" points="[37, -17, -501, 225]$[387, -174, -151, 68]"/>
-  </edges>
-</notation:Diagram>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_3ngxtlmMEeSE0M3clutwBw" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3ngxt1mMEeSE0M3clutwBw"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_3ngxuFmMEeSE0M3clutwBw">
+      <owner xmi:type="uml:Model" href="ButtonGame2.uml#_kXvG8FmIEeSE0M3clutwBw"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="ButtonGame2.uml#_3N2UgFmMEeSE0M3clutwBw"/>
+    <edges xmi:type="notation:Edge" xmi:id="_4tDLgFmOEeSE0M3clutwBw" type="4004" source="_pXkPQlmOEeSE0M3clutwBw" target="_l7kCc1mOEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4tDLhFmOEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4tDLhVmOEeSE0M3clutwBw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_4tDLhlmOEeSE0M3clutwBw" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4tDLh1mOEeSE0M3clutwBw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_4tDLgVmOEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_4tDLglmOEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_4tDLiFmOEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Message" href="ButtonGame2.uml#_4smfkFmOEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4tDLg1mOEeSE0M3clutwBw" points="[3, 8, -95, 0]$[92, 21, -6, 13]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4tyyYFmOEeSE0M3clutwBw" id="(0.8125,0.7564102564102564)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4tyyYVmOEeSE0M3clutwBw" id="(0.375,0.2509090909090909)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_QnyGUFmPEeSE0M3clutwBw" type="4004" source="_pXkPQlmOEeSE0M3clutwBw" target="_l7kCc1mOEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QnyGVFmPEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QnyGVVmPEeSE0M3clutwBw" x="-1" y="-9"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QnyGVlmPEeSE0M3clutwBw" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QnyGV1mPEeSE0M3clutwBw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_QnyGUVmPEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_QnyGUlmPEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_QnyGWFmPEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Message" href="ButtonGame2.uml#_QnekUFmPEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QnyGU1mPEeSE0M3clutwBw" points="[7, -2, -89, 21]$[112, -23, 16, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QoFBQFmPEeSE0M3clutwBw" id="(0.5625,0.23076923076923078)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QoFBQVmPEeSE0M3clutwBw" id="(0.1875,0.10181818181818182)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_0HC-01mQEeSE0M3clutwBw" type="4004" source="_l7kCc1mOEeSE0M3clutwBw" target="_B2iDElmQEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0HC-11mQEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0HC-2FmQEeSE0M3clutwBw" y="-9"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0HC-2VmQEeSE0M3clutwBw" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0HC-2lmQEeSE0M3clutwBw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_0HC-1FmQEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_0HC-1VmQEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_0HC-21mQEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Message" href="ButtonGame2.uml#_0HC-0FmQEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0HC-1lmQEeSE0M3clutwBw" points="[3, -1, -204, 0]$[212, -24, 5, -23]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0HMIwlmQEeSE0M3clutwBw" id="(0.75,0.08)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0HMIw1mQEeSE0M3clutwBw" id="(0.6875,0.3448275862068966)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_3kjAcFmQEeSE0M3clutwBw" type="4004" source="_l7kCc1mOEeSE0M3clutwBw" target="_B2iDElmQEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3kjAdFmQEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3kjAdVmQEeSE0M3clutwBw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3kjAdlmQEeSE0M3clutwBw" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3kjAd1mQEeSE0M3clutwBw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_3kjAcVmQEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3kjAclmQEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_3kjAeFmQEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Message" href="ButtonGame2.uml#_3kZ2gFmQEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3kjAc1mQEeSE0M3clutwBw" points="[6, 8, -196, 0]$[199, 19, -3, 11]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3kjAfVmQEeSE0M3clutwBw" id="(0.625,0.24727272727272728)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3kjAflmQEeSE0M3clutwBw" id="(0.1875,0.7241379310344828)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_bP_TwFmSEeSE0M3clutwBw" type="4004" source="_l7kCc1mOEeSE0M3clutwBw" target="_M0NcI1mREeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bP_TxFmSEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bP_TxVmSEeSE0M3clutwBw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bP_TxlmSEeSE0M3clutwBw" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bP_Tx1mSEeSE0M3clutwBw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_bP_TwVmSEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bP_TwlmSEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_bP_TyFmSEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Message" href="ButtonGame2.uml#_bP6bQFmSEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bP_Tw1mSEeSE0M3clutwBw" points="[1, 6, -407, 0]$[411, 10, 3, 4]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bQJEwFmSEeSE0M3clutwBw" id="(0.6875,0.4)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bQJEwVmSEeSE0M3clutwBw" id="(0.125,0.3)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_mC6q0FmSEeSE0M3clutwBw" type="4004" source="_l7kCc1mOEeSE0M3clutwBw" target="_M0NcI1mREeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_mC6q1FmSEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mC6q1VmSEeSE0M3clutwBw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_mC6q1lmSEeSE0M3clutwBw" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mC6q11mSEeSE0M3clutwBw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_mC6q0VmSEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_mC6q0lmSEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_mC6q2FmSEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Message" href="ButtonGame2.uml#_mC1yUFmSEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mC6q01mSEeSE0M3clutwBw" points="[6, 3, -405, 0]$[412, 18, 1, 15]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mDB_kFmSEeSE0M3clutwBw" id="(0.625,0.5381818181818182)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mDB_kVmSEeSE0M3clutwBw" id="(0.6875,0.8333333333333334)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_ZvJWoFmTEeSE0M3clutwBw" type="4004" source="_l7kCc1mOEeSE0M3clutwBw" target="_LQtXIFmTEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZvJWpFmTEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZvJWpVmTEeSE0M3clutwBw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZvJWplmTEeSE0M3clutwBw" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZvJWp1mTEeSE0M3clutwBw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_ZvJWoVmTEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ZvJWolmTEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_ZvJWqFmTEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Message" href="ButtonGame2.uml#_ZvEeIFmTEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZvJWo1mTEeSE0M3clutwBw" points="[9, 3, -582, 0]$[592, -17, 1, -20]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZvQrYFmTEeSE0M3clutwBw" id="(0.4375,0.7236363636363636)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZvQrYVmTEeSE0M3clutwBw" id="(0.625,0.22988505747126436)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_eqKfIFmTEeSE0M3clutwBw" type="4004" source="_l7kCc1mOEeSE0M3clutwBw" target="_LQtXIFmTEeSE0M3clutwBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_eqKfJFmTEeSE0M3clutwBw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eqKfJVmTEeSE0M3clutwBw" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_eqKfJlmTEeSE0M3clutwBw" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eqM7YFmTEeSE0M3clutwBw" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_eqKfIVmTEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_eqKfIlmTEeSE0M3clutwBw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_eqM7YVmTEeSE0M3clutwBw"/>
+      <element xmi:type="uml:Message" href="ButtonGame2.uml#_eqIC4FmTEeSE0M3clutwBw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eqKfI1mTEeSE0M3clutwBw" points="[3, 0, -581, 0]$[585, 24, 1, 24]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eqRz4FmTEeSE0M3clutwBw" id="(0.8125,0.8909090909090909)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eqRz4VmTEeSE0M3clutwBw" id="(0.5625,0.7241379310344828)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

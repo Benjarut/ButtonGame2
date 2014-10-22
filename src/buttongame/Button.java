@@ -37,6 +37,7 @@ public class Button extends StateBasedGame{
 		      AppGameContainer container = new AppGameContainer(new Button(name));
 		      container.setDisplayMode(GAME_WIDTH, GAME_HEIGHT, false);
 		      container.setMinimumLogicUpdateInterval(1000/60);
+		      container.setShowFPS(false);
 		      container.setIcon("res/buttonIcon.png");
 		      container.start();
 		 } catch (SlickException e) {
