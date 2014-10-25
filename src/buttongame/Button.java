@@ -14,6 +14,7 @@ public class Button extends StateBasedGame{
 	public static int menu = 0;
 	public static int mainGame = 1;
 	public static int endGame = 2;
+	public static int credit = 3;
 
 	public Button(String name) throws SlickException {
 		super(name);
@@ -21,7 +22,7 @@ public class Button extends StateBasedGame{
 		this.addState(new StartMenu(menu));
 		this.addState(new MainGame(mainGame));
 		this.addState(new EndGame(endGame));
-	
+		this.addState(new Credit());
 	}
 
 	@Override
@@ -29,6 +30,7 @@ public class Button extends StateBasedGame{
 		this.getState(menu).init(container, this);
 		this.getState(mainGame).init(container, this);
 		this.getState(endGame).init(container, this);
+		this.getState(credit).init(container, this);
 		this.enterState(menu);
 	}
 

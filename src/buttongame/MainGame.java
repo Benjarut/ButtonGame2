@@ -44,10 +44,10 @@ public class MainGame extends BasicGameState {
 
 	@Override
 	public void init(GameContainer container, StateBasedGame sbg) throws SlickException {
-		background=new Image(bg);
-		bonusButton=new BonusButton();
-		click=new Sound("res/click.wav");
-		music=new Music("res/DesiJourney.wav");
+		background = new Image(bg);
+		bonusButton = new BonusButton();
+		click = new Sound("res/click.wav");
+		music = new Music("res/DesiJourney.wav");
 		music.play();
 		music.loop();
 
@@ -57,26 +57,26 @@ public class MainGame extends BasicGameState {
 	}
 	
 	private void initButtons() throws SlickException {
-		buttons=new buttonPress[button_count];
+		buttons = new buttonPress[button_count];
 		
-		for(int i=0;i<button_count;i++){
+		for(int i = 0 ;i < button_count ;i++){
 			buttonPress button;
-			if(i==0){
-				button =new MovebuttonPress();
+			if(i == 0){
+				button = new MovebuttonPress();
 			}
-			else if(i==1){
-				button=new UnseenbuttonPress();
+			else if(i == 1){
+				button = new UnseenbuttonPress();
 			}
 			else
-				button=new buttonPress();
-			buttons[i]= button;
+				button = new buttonPress();
+			buttons[i] = button;
 			entities.add(button);
 		}
 	}
 
 	private void setFontText() {
-		font =new Font("Verdana",Font.BOLD,14);
-		ttf=new TrueTypeFont(font, true);
+		font = new Font("Verdana",Font.BOLD,14);
+		ttf = new TrueTypeFont(font, true);
 	}
 	
 	@Override
@@ -84,7 +84,7 @@ public class MainGame extends BasicGameState {
 		background.draw(0,0,Button.GAME_WIDTH,Button.GAME_HEIGHT);
 		ttf.drawString(600, 10, "SCORE : "+score);
 		ttf.drawString(300, 10, "TIME : "+(int) time);
-		if(count>0 && time%10>=7){
+		if(count > 0 && time%10 >= 7){
 			bonusButton.draw(g);
 		}
 		for(Entity entity : entities){	
@@ -100,15 +100,15 @@ public class MainGame extends BasicGameState {
 		updateEntities(delta);
 		
 		if(time > 0){
-			time-=delta*1/1000f;
-			if(time%10==0){
-				count-=1;
+			time -= delta*1/1000f;
+			if(time%10 == 0){
+				count -= 1;
 			}
 		}
 		else{
-			time=0;	
+			time = 0;	
 		}
-		if(time==0){
+		if(time == 0){
 			enterEndState(sbg);
 		}	
 	}
@@ -131,23 +131,23 @@ public class MainGame extends BasicGameState {
 	public void mousePressed(int button,int x,int y){
 		click.play();
 		int i;
-		i=Checkhit();
-		if(i<3){
-			score+=1;
-			if(buttons[i].getOvalHeight()>=buttonPress.getHeight() && buttons[i].getOvalHeight()<=buttonPress.getHeight()+5){
-				score+=4;
+		i = Checkhit();
+		if(i < 3){
+			score += 1;
+			if(buttons[i].getOvalHeight() >= buttonPress.getHeight() && buttons[i].getOvalHeight() <= buttonPress.getHeight()+5){
+				score += 4;
 			}
 			buttons[i].resetOval();
 		}
 		if(hitBonus()){
-			score+=20;
+			score += 20;
 			bonusButton.resetOval();
 		}
 	}
 	
 	private boolean hitBonus() {
-		if(xpos>=bonusButton.getX() && xpos<=bonusButton.getX()+BonusButton.getWidth()){
-			if(ypos >=bonusButton.getY() && ypos <= bonusButton.getY()+BonusButton.getHeight()){
+		if(xpos >= bonusButton.getX() && xpos <= bonusButton.getX()+BonusButton.getWidth()){
+			if(ypos >= bonusButton.getY() && ypos <= bonusButton.getY()+BonusButton.getHeight()){
 				return true;
 			}
 		}
@@ -156,9 +156,9 @@ public class MainGame extends BasicGameState {
 	
 	public int Checkhit(){
 		int i;
-		for(i=0;i<button_count;i++){
-			if(xpos>=buttons[i].getX() && xpos<=buttons[i].getX()+buttonPress.getWidth()){
-				if(ypos >=buttons[i].getY() && ypos <= buttons[i].getY()+buttonPress.getWidth()){
+		for(i = 0 ;i < button_count ;i++){
+			if(xpos >= buttons[i].getX() && xpos <= buttons[i].getX()+buttonPress.getWidth()){
+				if(ypos >= buttons[i].getY() && ypos <= buttons[i].getY()+buttonPress.getWidth()){
 					return i;
 				}
 			}
